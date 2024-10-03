@@ -1,0 +1,1384 @@
+[Sun Sep 29 12:39:52 202] - print
+[Sun Sep 29 12:40:01 202] - new white
+[Sun Sep 29 12:40:04 202] - print
+[Sun Sep 29 12:40:17 202] - next
+[Sun Sep 29 12:40:19 202] - print
+[Sun Sep 29 12:40:54 202] - new black
+[Sun Sep 29 12:40:57 202] - print
+[Sun Sep 29 12:41:04 202] - white AAAB
+[Sun Sep 29 12:41:06 202] - print
+[Sun Sep 29 12:41:12 202] - move AAAB
+[Sun Sep 29 12:41:15 202] - print
+[Sun Sep 29 12:41:25 202] - white ACAD
+[Sun Sep 29 12:41:30 202] - move ACAD
+[Sun Sep 29 12:41:35 202] - print
+[Sun Sep 29 12:41:42 202] - move AEAF
+[Sun Sep 29 12:41:49 202] - print
+[Sun Sep 29 12:42:19 202] - white BBCC
+[Sun Sep 29 12:42:20 202] - print
+[Sun Sep 29 12:42:37 202] - white SESF
+[Sun Sep 29 12:42:38 202] - print
+[Sun Sep 29 12:42:46 202] - next
+[Sun Sep 29 12:42:49 202] - print
+[Sun Sep 29 12:42:52 202] - next
+[Sun Sep 29 12:42:54 202] - print
+[Sun Sep 29 12:43:40 202] - exit
+[Sun Sep 29 12:43:50 202] - new black
+[Sun Sep 29 12:43:59 202] - white AABB
+[Sun Sep 29 12:44:01 202] - print
+[Sun Sep 29 12:44:04 202] - next
+[Sun Sep 29 12:44:06 202] - print
+[Sun Sep 29 12:44:11 202] - white CCDD
+[Sun Sep 29 12:44:13 202] - next
+[Sun Sep 29 12:44:18 202] - white EEFF
+[Sun Sep 29 12:44:21 202] - print
+[Sun Sep 29 12:44:27 202] - next
+[Sun Sep 29 12:44:37 202] - white GGHH
+[Sun Sep 29 12:44:40 202] - print
+[Sun Sep 29 12:46:36 202] - new black
+[Sun Sep 29 12:46:43 202] - white aabb
+[Sun Sep 29 12:46:48 202] - new white
+[Sun Sep 29 12:46:54 202] - quit
+[Sun Sep 29 12:46:57 202] - new black
+[Sun Sep 29 12:47:01 202] - white AABB
+[Sun Sep 29 12:47:03 202] - next
+[Sun Sep 29 12:47:09 202] - victory
+[Sun Sep 29 12:47:12 202] - print
+[Sun Sep 29 12:47:17 202] - white CCDD
+[Sun Sep 29 12:47:20 202] - next
+[Sun Sep 29 12:47:21 202] - print
+[Sun Sep 29 12:47:24 202] - victory
+[Sun Sep 29 12:47:33 202] - white EEFF
+[Sun Sep 29 12:47:37 202] - victory
+[Sun Sep 29 12:47:39 202] - print
+[Sun Sep 29 12:47:51 202] - next
+[Sun Sep 29 12:47:52 202] - print
+[Sun Sep 29 12:47:55 202] - next
+[Sun Sep 29 12:47:57 202] - print
+[Sun Sep 29 12:48:12 202] - quit
+[Sun Sep 29 12:48:17 202] - new black
+[Sun Sep 29 12:48:21 202] - white AABB
+[Sun Sep 29 12:48:23 202] - next
+[Sun Sep 29 12:48:24 202] - print
+[Sun Sep 29 12:48:32 202] - white CCDD
+[Sun Sep 29 12:48:35 202] - next
+[Sun Sep 29 12:48:36 202] - print
+[Sun Sep 29 12:48:42 202] - white ABAC
+[Sun Sep 29 12:48:44 202] - print
+[Sun Sep 29 12:48:46 202] - next
+[Sun Sep 29 14:41:04 202] - new black
+[Sun Sep 29 14:41:06 202] - print
+[Sun Sep 29 14:41:13 202] - white AA AC
+[Sun Sep 29 14:41:19 202] - new black
+[Sun Sep 29 14:41:24 202] - white AAAC
+[Sun Sep 29 14:41:27 202] - next
+[Sun Sep 29 14:41:36 202] - white ADAE
+[Sun Sep 29 14:41:38 202] - next
+[Sun Sep 29 14:41:43 202] - white AFAG
+[Sun Sep 29 14:41:45 202] - print
+[Sun Sep 29 14:41:50 202] - next
+[Sun Sep 29 14:42:00 202] - new black
+[Sun Sep 29 14:42:11 202] - white AA AC
+[Sun Sep 29 14:42:16 202] - new black
+[Sun Sep 29 14:42:19 202] - white AAAC
+[Sun Sep 29 14:42:22 202] - next
+[Sun Sep 29 14:42:32 202] - white ADCS
+[Sun Sep 29 14:42:34 202] - print
+[Sun Sep 29 14:42:41 202] - next
+[Sun Sep 29 14:42:44 202] - print
+[Sun Sep 29 14:42:49 202] - white AEAF
+[Sun Sep 29 14:42:51 202] - print
+[Sun Sep 29 14:42:53 202] - next
+[Sun Sep 29 14:42:57 202] - print
+[Sun Sep 29 14:43:49 202] - white AGHS
+[Sun Sep 29 14:43:52 202] - print
+[Sun Sep 29 14:44:01 202] - next
+[Sun Sep 29 14:44:03 202] - print
+[Sun Sep 29 14:44:17 202] - white AHAI
+[Sun Sep 29 14:44:19 202] - print
+[Sun Sep 29 14:44:25 202] - next
+[Sun Sep 29 14:44:28 202] - print
+[Sun Sep 29 14:44:35 202] - white AB
+[Sun Sep 29 14:44:37 202] - print
+[Sun Sep 29 14:44:47 202] - white BA
+[Sun Sep 29 14:44:48 202] - print
+[Sun Sep 29 14:44:52 202] - next
+[Sun Sep 29 14:44:54 202] - print
+[Sun Sep 29 14:45:26 202] - new white
+[Sun Sep 29 14:45:29 202] - black JJ
+[Sun Sep 29 14:45:31 202] - next
+[Sun Sep 29 14:45:33 202] - print
+[Sun Sep 29 14:45:39 202] - black AABB
+[Sun Sep 29 14:45:41 202] - next
+[Sun Sep 29 14:45:47 202] - black CCDD
+[Sun Sep 29 14:45:48 202] - print
+[Sun Sep 29 14:45:50 202] - next
+[Sun Sep 29 14:45:53 202] - print
+[Sun Sep 29 14:47:34 202] - new black
+[Sun Sep 29 14:49:17 202] - white AABB
+[Sun Sep 29 14:49:20 202] - next
+[Sun Sep 29 14:49:28 202] - white CCDD
+[Sun Sep 29 14:49:30 202] - next
+[Sun Sep 29 14:49:32 202] - print
+[Sun Sep 29 14:49:40 202] - white EEFF
+[Sun Sep 29 14:49:42 202] - print
+[Sun Sep 29 14:49:45 202] - next
+[Sun Sep 29 14:49:50 202] - print
+[Sun Sep 29 14:52:51 202] - new black
+[Sun Sep 29 14:52:52 202] - print
+[Sun Sep 29 14:52:56 202] - move AABB
+[Sun Sep 29 14:52:58 202] - print
+[Sun Sep 29 14:53:04 202] - move CCDD
+[Sun Sep 29 14:53:05 202] - print
+[Sun Sep 29 14:53:10 202] - move EEFF
+[Sun Sep 29 14:53:16 202] - print
+[Sun Sep 29 14:53:56 202] - new black
+[Sun Sep 29 14:53:59 202] - print
+[Sun Sep 29 14:54:33 202] - move AABB
+[Sun Sep 29 14:54:35 202] - print
+[Sun Sep 29 14:54:39 202] - move CCDD
+[Sun Sep 29 14:54:45 202] - print
+[Sun Sep 29 14:54:48 202] - move EEFF
+[Sun Sep 29 14:55:03 202] - new black
+[Sun Sep 29 14:55:09 202] - move AAGG
+[Sun Sep 29 14:55:14 202] - move FFJJ
+[Sun Sep 29 14:55:17 202] - print
+[Sun Sep 29 14:55:25 202] - move GAAS
+[Sun Sep 29 14:55:28 202] - print
+[Sun Sep 29 14:55:35 202] - move IIDD
+[Sun Sep 29 14:55:38 202] - print
+[Sun Sep 29 14:55:48 202] - quit
+[Sun Sep 29 15:03:37 202] - new black
+[Sun Sep 29 15:03:40 202] - move AABB
+[Sun Sep 29 15:03:42 202] - print
+[Sun Sep 29 15:03:45 202] - move CCDD
+[Sun Sep 29 15:03:49 202] - move EEFF
+[Sun Sep 29 15:03:51 202] - print
+[Sun Sep 29 15:04:15 202] - quit
+[Sun Sep 29 15:04:19 202] - new black
+[Sun Sep 29 15:04:22 202] - move AABB
+[Sun Sep 29 15:04:24 202] - move CCDD
+[Sun Sep 29 15:04:27 202] - move EEFF
+[Sun Sep 29 15:04:29 202] - print
+[Sun Sep 29 15:07:55 202] - quit
+[Sun Sep 29 15:07:58 202] - new white
+[Sun Sep 29 15:08:03 202] - print
+[Sun Sep 29 15:08:18 202] - move AA
+[Sun Sep 29 15:08:24 202] - move BBCC
+[Sun Sep 29 15:08:30 202] - print
+[Sun Sep 29 15:08:34 202] - move DDEE
+[Sun Sep 29 15:08:37 202] - print
+[Sun Sep 29 15:08:42 202] - print FFGG
+[Sun Sep 29 15:08:47 202] - move FFGG
+[Sun Sep 29 15:11:57 202] - new black
+[Sun Sep 29 15:12:00 202] - print
+[Sun Sep 29 15:12:10 202] - quit
+[Sun Sep 29 15:12:35 202] - new black
+[Sun Sep 29 15:12:39 202] - move AABB
+[Sun Sep 29 15:12:43 202] - move CCDD
+[Sun Sep 29 15:12:50 202] - move EEFF
+[Sun Sep 29 15:12:59 202] - new black
+[Sun Sep 29 15:13:02 202] - move AABB
+[Sun Sep 29 15:13:08 202] - move FFCC
+[Sun Sep 29 15:13:16 202] - move ABAC
+[Sun Sep 29 15:14:50 202] - new white
+[Sun Sep 29 15:14:55 202] - move JJ
+[Sun Sep 29 15:14:59 202] - move AABB
+[Sun Sep 29 15:15:03 202] - move CCDD
+[Sun Sep 29 15:15:24 202] - new white
+[Sun Sep 29 15:15:27 202] - move JJ
+[Sun Sep 29 15:15:30 202] - move AABB
+[Sun Sep 29 15:15:32 202] - move CCDD
+[Sun Sep 29 15:15:41 202] - new black
+[Sun Sep 29 15:15:43 202] - move AABB
+[Sun Sep 29 15:15:46 202] - move CCDD
+[Sun Sep 29 15:15:49 202] - movd EEFF
+[Sun Sep 29 15:15:53 202] - move EEFF
+[Sun Sep 29 15:17:08 202] - new black
+[Sun Sep 29 15:17:36 202] - new black
+[Sun Sep 29 15:17:39 202] - move AABB
+[Sun Sep 29 15:17:42 202] - move CCDD
+[Sun Sep 29 15:17:44 202] - move EEFF
+[Sun Sep 29 16:08:15 202] - new black
+[Sun Sep 29 16:08:24 202] - move AABB
+[Sun Sep 29 16:10:35 202] - new black
+[Sun Sep 29 16:10:39 202] - move AABB
+[Sun Sep 29 16:11:07 202] - new black
+[Sun Sep 29 16:11:09 202] - move AABB
+[Sun Sep 29 16:12:58 202] - move CSDS
+[Sun Sep 29 16:13:08 202] - move GSHS
+[Sun Sep 29 16:13:15 202] - next
+[Sun Sep 29 16:13:17 202] - next
+[Sun Sep 29 16:13:17 202] - next
+[Sun Sep 29 16:13:18 202] - next
+[Sun Sep 29 16:13:18 202] - next
+[Sun Sep 29 16:13:18 202] - next
+[Sun Sep 29 16:13:18 202] - next
+[Sun Sep 29 16:13:19 202] - next
+[Sun Sep 29 16:13:19 202] - next
+[Sun Sep 29 16:13:20 202] - next
+[Sun Sep 29 16:13:20 202] - next
+[Sun Sep 29 16:13:20 202] - next
+[Sun Sep 29 16:13:21 202] - next
+[Sun Sep 29 16:13:21 202] - next
+[Sun Sep 29 16:13:21 202] - next
+[Sun Sep 29 16:13:21 202] - next
+[Sun Sep 29 16:13:22 202] - next
+[Sun Sep 29 16:13:25 202] - print
+[Sun Sep 29 16:13:27 202] - print
+[Sun Sep 29 16:13:28 202] - print
+[Sun Sep 29 16:13:28 202] - print
+[Sun Sep 29 16:13:28 202] - print
+[Sun Sep 29 16:13:28 202] - print
+[Sun Sep 29 16:13:29 202] - print
+[Sun Sep 29 16:13:29 202] - print
+[Sun Sep 29 16:13:29 202] - print
+[Sun Sep 29 16:13:31 202] - next
+[Sun Sep 29 16:13:31 202] - next
+[Sun Sep 29 16:13:32 202] - next
+[Sun Sep 29 16:13:32 202] - next
+[Sun Sep 29 16:13:32 202] - next
+[Sun Sep 29 16:13:32 202] - next
+[Sun Sep 29 16:13:32 202] - next
+[Sun Sep 29 16:13:33 202] - next
+[Sun Sep 29 16:13:33 202] - next
+[Sun Sep 29 16:13:33 202] - next
+[Sun Sep 29 16:13:33 202] - next
+[Sun Sep 29 16:13:34 202] - next
+[Sun Sep 29 16:13:34 202] - next
+[Sun Sep 29 16:13:34 202] - next
+[Sun Sep 29 16:13:34 202] - next
+[Sun Sep 29 16:13:35 202] - next
+[Sun Sep 29 16:13:36 202] - print
+[Sun Sep 29 16:13:44 202] - print
+[Sun Sep 29 16:13:46 202] - print
+[Sun Sep 29 16:13:48 202] - next
+[Sun Sep 29 16:13:49 202] - next
+[Sun Sep 29 16:13:49 202] - next
+[Sun Sep 29 16:13:49 202] - next
+[Sun Sep 29 16:13:50 202] - next
+[Sun Sep 29 16:13:50 202] - next
+[Sun Sep 29 16:13:50 202] - next
+[Sun Sep 29 16:13:51 202] - print
+[Sun Sep 29 16:14:01 202] - move ACAD
+[Sun Sep 29 16:14:06 202] - next
+[Sun Sep 29 16:14:09 202] - print
+[Sun Sep 29 16:14:23 202] - next
+[Sun Sep 29 16:14:24 202] - next
+[Sun Sep 29 16:14:24 202] - next
+[Sun Sep 29 16:14:24 202] - next
+[Sun Sep 29 16:14:25 202] - next
+[Sun Sep 29 16:14:25 202] - next
+[Sun Sep 29 16:14:25 202] - 
+[Sun Sep 29 16:14:25 202] - next
+[Sun Sep 29 16:14:26 202] - next
+[Sun Sep 29 16:14:26 202] - next
+[Sun Sep 29 16:14:26 202] - next
+[Sun Sep 29 16:14:26 202] - next
+[Sun Sep 29 16:14:27 202] - next
+[Sun Sep 29 16:14:27 202] - next
+[Sun Sep 29 16:14:27 202] - next
+[Sun Sep 29 16:14:27 202] - next
+[Sun Sep 29 16:14:28 202] - next
+[Sun Sep 29 16:14:28 202] - next
+[Sun Sep 29 16:14:28 202] - next
+[Sun Sep 29 16:14:28 202] - next
+[Sun Sep 29 16:14:29 202] - next
+[Sun Sep 29 16:14:29 202] - next
+[Sun Sep 29 16:14:29 202] - next
+[Sun Sep 29 16:14:30 202] - next
+[Sun Sep 29 16:14:30 202] - next
+[Sun Sep 29 16:14:31 202] - next
+[Sun Sep 29 16:14:31 202] - next
+[Sun Sep 29 16:14:31 202] - next
+[Sun Sep 29 16:14:31 202] - next
+[Sun Sep 29 16:14:31 202] - next
+[Sun Sep 29 16:14:32 202] - next
+[Sun Sep 29 16:14:32 202] - next
+[Sun Sep 29 16:14:32 202] - next
+[Sun Sep 29 16:14:32 202] - next
+[Sun Sep 29 16:14:32 202] - next
+[Sun Sep 29 16:14:32 202] - next
+[Sun Sep 29 16:14:33 202] - next
+[Sun Sep 29 16:14:33 202] - next
+[Sun Sep 29 16:14:33 202] - next
+[Sun Sep 29 16:14:33 202] - next
+[Sun Sep 29 16:14:33 202] - next
+[Sun Sep 29 16:14:34 202] - next
+[Sun Sep 29 16:14:34 202] - next
+[Sun Sep 29 16:14:34 202] - next
+[Sun Sep 29 16:14:34 202] - next
+[Sun Sep 29 16:14:34 202] - next
+[Sun Sep 29 16:14:35 202] - next
+[Sun Sep 29 16:14:35 202] - next
+[Sun Sep 29 16:14:35 202] - next
+[Sun Sep 29 16:14:35 202] - next
+[Sun Sep 29 16:14:36 202] - next
+[Sun Sep 29 16:14:36 202] - next
+[Sun Sep 29 16:14:36 202] - next
+[Sun Sep 29 16:14:36 202] - next
+[Sun Sep 29 16:14:36 202] - next
+[Sun Sep 29 16:14:37 202] - next
+[Sun Sep 29 16:14:37 202] - next
+[Sun Sep 29 16:14:37 202] - next
+[Sun Sep 29 16:14:37 202] - next
+[Sun Sep 29 16:14:37 202] - next
+[Sun Sep 29 16:14:38 202] - next
+[Sun Sep 29 16:14:38 202] - next
+[Sun Sep 29 16:14:38 202] - next
+[Sun Sep 29 16:14:38 202] - next
+[Sun Sep 29 16:14:39 202] - next
+[Sun Sep 29 16:14:39 202] - next
+[Sun Sep 29 16:14:39 202] - next
+[Sun Sep 29 16:14:39 202] - next
+[Sun Sep 29 16:14:39 202] - next
+[Sun Sep 29 16:14:40 202] - next
+[Sun Sep 29 16:14:40 202] - next
+[Sun Sep 29 16:14:40 202] - next
+[Sun Sep 29 16:14:40 202] - next
+[Sun Sep 29 16:14:42 202] - print
+[Sun Sep 29 16:14:44 202] - print
+[Sun Sep 29 16:14:44 202] - print
+[Sun Sep 29 16:14:44 202] - print
+[Sun Sep 29 16:14:44 202] - print
+[Sun Sep 29 16:14:45 202] - print
+[Sun Sep 29 16:14:45 202] - print
+[Sun Sep 29 16:14:45 202] - print
+[Sun Sep 29 16:14:45 202] - print
+[Sun Sep 29 16:14:46 202] - next
+[Sun Sep 29 16:14:46 202] - next
+[Sun Sep 29 16:14:47 202] - next
+[Sun Sep 29 16:14:47 202] - next
+[Sun Sep 29 16:14:47 202] - next
+[Sun Sep 29 16:14:47 202] - next
+[Sun Sep 29 16:14:47 202] - next
+[Sun Sep 29 16:14:48 202] - next
+[Sun Sep 29 16:14:48 202] - next
+[Sun Sep 29 16:14:48 202] - next
+[Sun Sep 29 16:14:48 202] - next
+[Sun Sep 29 16:14:49 202] - next
+[Sun Sep 29 16:14:49 202] - next
+[Sun Sep 29 16:14:49 202] - next
+[Sun Sep 29 16:14:49 202] - next
+[Sun Sep 29 16:14:49 202] - next
+[Sun Sep 29 16:14:50 202] - next
+[Sun Sep 29 16:14:50 202] - next
+[Sun Sep 29 16:14:50 202] - next
+[Sun Sep 29 16:14:50 202] - next
+[Sun Sep 29 16:14:51 202] - next
+[Sun Sep 29 16:14:51 202] - next
+[Sun Sep 29 16:14:51 202] - next
+[Sun Sep 29 16:14:51 202] - next
+[Sun Sep 29 16:14:52 202] - next
+[Sun Sep 29 16:14:52 202] - next
+[Sun Sep 29 16:14:52 202] - next
+[Sun Sep 29 16:14:52 202] - next
+[Sun Sep 29 16:14:53 202] - next
+[Sun Sep 29 16:14:53 202] - next
+[Sun Sep 29 16:14:53 202] - next
+[Sun Sep 29 16:14:53 202] - next
+[Sun Sep 29 16:14:54 202] - next
+[Sun Sep 29 16:14:55 202] - next
+[Sun Sep 29 16:14:56 202] - print
+[Sun Sep 29 16:15:02 202] - next
+[Sun Sep 29 16:15:03 202] - next
+[Sun Sep 29 16:15:03 202] - next
+[Sun Sep 29 16:15:03 202] - next
+[Sun Sep 29 16:15:03 202] - next
+[Sun Sep 29 16:15:03 202] - next
+[Sun Sep 29 16:15:04 202] - next
+[Sun Sep 29 16:15:04 202] - next
+[Sun Sep 29 16:15:04 202] - next
+[Sun Sep 29 16:15:04 202] - next
+[Sun Sep 29 16:15:05 202] - next
+[Sun Sep 29 16:15:05 202] - next
+[Sun Sep 29 16:15:05 202] - next
+[Sun Sep 29 16:15:05 202] - next
+[Sun Sep 29 16:15:06 202] - next
+[Sun Sep 29 16:15:06 202] - next
+[Sun Sep 29 16:15:06 202] - next
+[Sun Sep 29 16:15:06 202] - next
+[Sun Sep 29 16:15:07 202] - next
+[Sun Sep 29 16:15:11 202] - print
+[Sun Sep 29 16:15:22 202] - move HIJI
+[Sun Sep 29 16:16:23 202] - new black
+[Sun Sep 29 16:16:24 202] - new black
+[Sun Sep 29 16:16:25 202] - new black
+[Sun Sep 29 16:16:25 202] - new black
+[Sun Sep 29 16:16:28 202] - next
+[Sun Sep 29 16:17:29 202] - new black
+[Sun Sep 29 16:17:32 202] - next
+[Sun Sep 29 16:17:54 202] - new black
+[Sun Sep 29 16:17:56 202] - next
+[Sun Sep 29 16:18:00 202] - next
+[Sun Sep 29 16:18:01 202] - next
+[Sun Sep 29 16:18:01 202] - next
+[Sun Sep 29 16:18:01 202] - next
+[Sun Sep 29 16:18:01 202] - next
+[Sun Sep 29 16:18:01 202] - next
+[Sun Sep 29 16:18:01 202] - next
+[Sun Sep 29 16:18:02 202] - next
+[Sun Sep 29 16:18:02 202] - next
+[Sun Sep 29 16:18:02 202] - next
+[Sun Sep 29 16:18:02 202] - next
+[Sun Sep 29 16:18:03 202] - next
+[Sun Sep 29 16:18:03 202] - next
+[Sun Sep 29 16:18:03 202] - next
+[Sun Sep 29 16:18:03 202] - next
+[Sun Sep 29 16:18:03 202] - next
+[Sun Sep 29 16:18:04 202] - next
+[Sun Sep 29 16:18:04 202] - next
+[Sun Sep 29 16:18:04 202] - next
+[Sun Sep 29 16:18:04 202] - next
+[Sun Sep 29 16:18:04 202] - next
+[Sun Sep 29 16:18:05 202] - next
+[Sun Sep 29 16:18:05 202] - next
+[Sun Sep 29 16:18:05 202] - next
+[Sun Sep 29 16:18:05 202] - next
+[Sun Sep 29 16:18:06 202] - next
+[Sun Sep 29 16:18:06 202] - next
+[Sun Sep 29 16:18:06 202] - next
+[Sun Sep 29 16:18:06 202] - next
+[Sun Sep 29 16:18:06 202] - next
+[Sun Sep 29 16:18:07 202] - next
+[Sun Sep 29 16:18:07 202] - next
+[Sun Sep 29 16:18:07 202] - next
+[Sun Sep 29 16:18:07 202] - next
+[Sun Sep 29 16:18:07 202] - next
+[Sun Sep 29 16:18:08 202] - next
+[Sun Sep 29 16:18:08 202] - next
+[Sun Sep 29 16:18:08 202] - next
+[Sun Sep 29 16:18:08 202] - next
+[Sun Sep 29 16:18:09 202] - next
+[Sun Sep 29 16:18:09 202] - next
+[Sun Sep 29 16:18:09 202] - next
+[Sun Sep 29 16:18:09 202] - next
+[Sun Sep 29 16:18:10 202] - next
+[Sun Sep 29 16:18:10 202] - next
+[Sun Sep 29 16:18:10 202] - next
+[Sun Sep 29 16:18:10 202] - next
+[Sun Sep 29 16:18:11 202] - next
+[Sun Sep 29 16:18:11 202] - next
+[Sun Sep 29 16:18:11 202] - next
+[Sun Sep 29 16:18:11 202] - next
+[Sun Sep 29 16:18:12 202] - next
+[Sun Sep 29 16:18:12 202] - next
+[Sun Sep 29 16:18:12 202] - next
+[Sun Sep 29 16:18:12 202] - next
+[Sun Sep 29 16:18:13 202] - next
+[Sun Sep 29 16:18:13 202] - next
+[Sun Sep 29 16:18:13 202] - next
+[Sun Sep 29 16:18:13 202] - next
+[Sun Sep 29 16:18:14 202] - next
+[Sun Sep 29 16:18:14 202] - next
+[Sun Sep 29 16:18:14 202] - next
+[Sun Sep 29 16:18:15 202] - next
+[Sun Sep 29 16:18:15 202] - next
+[Sun Sep 29 16:18:15 202] - next
+[Sun Sep 29 16:18:15 202] - next
+[Sun Sep 29 16:18:16 202] - next
+[Sun Sep 29 16:18:16 202] - next
+[Sun Sep 29 16:18:16 202] - next
+[Sun Sep 29 16:18:16 202] - next
+[Sun Sep 29 16:18:17 202] - next
+[Sun Sep 29 16:18:17 202] - next
+[Sun Sep 29 16:18:17 202] - next
+[Sun Sep 29 16:18:17 202] - next
+[Sun Sep 29 16:18:18 202] - next
+[Sun Sep 29 16:18:18 202] - next
+[Sun Sep 29 16:18:18 202] - next
+[Sun Sep 29 16:18:18 202] - next
+[Sun Sep 29 16:18:19 202] - next
+[Sun Sep 29 16:18:19 202] - next
+[Sun Sep 29 16:18:19 202] - next
+[Sun Sep 29 16:18:20 202] - next
+[Sun Sep 29 16:18:20 202] - next
+[Sun Sep 29 16:18:20 202] - next
+[Sun Sep 29 16:18:20 202] - next
+[Sun Sep 29 16:18:21 202] - next
+[Sun Sep 29 16:18:21 202] - next
+[Sun Sep 29 16:18:21 202] - next
+[Sun Sep 29 16:18:21 202] - next
+[Sun Sep 29 16:18:22 202] - next
+[Sun Sep 29 16:18:22 202] - next
+[Sun Sep 29 16:18:22 202] - next
+[Sun Sep 29 16:18:22 202] - next
+[Sun Sep 29 16:18:23 202] - next
+[Sun Sep 29 16:18:23 202] - next
+[Sun Sep 29 16:18:23 202] - next
+[Sun Sep 29 16:18:24 202] - next
+[Sun Sep 29 16:18:24 202] - next
+[Sun Sep 29 16:18:24 202] - next
+[Sun Sep 29 16:18:27 202] - print
+[Sun Sep 29 16:18:29 202] - next
+[Sun Sep 29 16:18:30 202] - next
+[Sun Sep 29 16:18:30 202] - next
+[Sun Sep 29 16:18:30 202] - next
+[Sun Sep 29 16:18:30 202] - next
+[Sun Sep 29 16:18:30 202] - next
+[Sun Sep 29 16:18:31 202] - next
+[Sun Sep 29 16:18:31 202] - next
+[Sun Sep 29 16:18:31 202] - next
+[Sun Sep 29 16:18:31 202] - next
+[Sun Sep 29 16:18:32 202] - next
+[Sun Sep 29 16:18:32 202] - next
+[Sun Sep 29 16:18:32 202] - next
+[Sun Sep 29 16:18:32 202] - next
+[Sun Sep 29 16:18:32 202] - next
+[Sun Sep 29 16:18:33 202] - next
+[Sun Sep 29 16:18:33 202] - next
+[Sun Sep 29 16:18:33 202] - next
+[Sun Sep 29 16:18:33 202] - next
+[Sun Sep 29 16:18:34 202] - next
+[Sun Sep 29 16:18:34 202] - next
+[Sun Sep 29 16:18:34 202] - next
+[Sun Sep 29 16:18:34 202] - next
+[Sun Sep 29 16:18:35 202] - next
+[Sun Sep 29 16:18:35 202] - next
+[Sun Sep 29 16:18:35 202] - next
+[Sun Sep 29 16:18:35 202] - next
+[Sun Sep 29 16:18:36 202] - next
+[Sun Sep 29 16:18:36 202] - next
+[Sun Sep 29 16:18:36 202] - next
+[Sun Sep 29 16:18:36 202] - next
+[Sun Sep 29 16:18:37 202] - next
+[Sun Sep 29 16:18:37 202] - next
+[Sun Sep 29 16:18:37 202] - next
+[Sun Sep 29 16:18:37 202] - next
+[Sun Sep 29 16:18:38 202] - next
+[Sun Sep 29 16:18:38 202] - next
+[Sun Sep 29 16:18:38 202] - next
+[Sun Sep 29 16:18:38 202] - next
+[Sun Sep 29 16:18:39 202] - next
+[Sun Sep 29 16:18:39 202] - next
+[Sun Sep 29 16:18:39 202] - next
+[Sun Sep 29 16:18:39 202] - next
+[Sun Sep 29 16:18:40 202] - next
+[Sun Sep 29 16:18:42 202] - print
+[Sun Sep 29 16:18:43 202] - print
+[Sun Sep 29 16:18:44 202] - print
+[Sun Sep 29 16:18:44 202] - print
+[Sun Sep 29 16:18:44 202] - print
+[Sun Sep 29 16:18:44 202] - print
+[Sun Sep 29 16:18:45 202] - print
+[Sun Sep 29 16:18:45 202] - print
+[Sun Sep 29 16:18:45 202] - print
+[Sun Sep 29 16:18:45 202] - print
+[Sun Sep 29 16:18:45 202] - print
+[Sun Sep 29 16:18:46 202] - print
+[Sun Sep 29 16:18:46 202] - print
+[Sun Sep 29 16:18:46 202] - print
+[Sun Sep 29 16:18:47 202] - print
+[Sun Sep 29 16:18:48 202] - next
+[Sun Sep 29 16:18:49 202] - next
+[Sun Sep 29 16:18:49 202] - next
+[Sun Sep 29 16:18:49 202] - next
+[Sun Sep 29 16:18:49 202] - next
+[Sun Sep 29 16:18:50 202] - next
+[Sun Sep 29 16:18:50 202] - next
+[Sun Sep 29 16:18:50 202] - next
+[Sun Sep 29 16:18:50 202] - next
+[Sun Sep 29 16:18:51 202] - next
+[Sun Sep 29 16:18:51 202] - next
+[Sun Sep 29 16:18:51 202] - next
+[Sun Sep 29 16:18:51 202] - next
+[Sun Sep 29 16:18:52 202] - next
+[Sun Sep 29 16:18:52 202] - next
+[Sun Sep 29 16:18:52 202] - next
+[Sun Sep 29 16:18:52 202] - next
+[Sun Sep 29 16:18:53 202] - next
+[Sun Sep 29 16:18:53 202] - next
+[Sun Sep 29 16:18:53 202] - next
+[Sun Sep 29 16:18:53 202] - next
+[Sun Sep 29 16:18:54 202] - next
+[Sun Sep 29 16:18:54 202] - next
+[Sun Sep 29 16:18:54 202] - next
+[Sun Sep 29 16:18:54 202] - next
+[Sun Sep 29 16:18:55 202] - next
+[Sun Sep 29 16:18:55 202] - next
+[Sun Sep 29 16:18:55 202] - next
+[Sun Sep 29 16:18:55 202] - next
+[Sun Sep 29 16:18:56 202] - next
+[Sun Sep 29 16:18:56 202] - next
+[Sun Sep 29 16:18:56 202] - next
+[Sun Sep 29 16:18:56 202] - next
+[Sun Sep 29 16:18:57 202] - next
+[Sun Sep 29 16:18:57 202] - next
+[Sun Sep 29 16:18:57 202] - next
+[Sun Sep 29 16:18:58 202] - next
+[Sun Sep 29 16:19:00 202] - print
+[Sun Sep 29 16:19:02 202] - next
+[Sun Sep 29 16:19:02 202] - next
+[Sun Sep 29 16:19:05 202] - print
+[Sun Sep 29 16:19:34 202] - quit
+[Sun Sep 29 16:29:32 202] - new black
+[Sun Sep 29 16:29:39 202] - next
+[Sun Sep 29 16:29:42 202] - print
+[Sun Sep 29 16:38:48 202] - next
+[Sun Sep 29 16:38:49 202] - next
+[Sun Sep 29 16:38:49 202] - next
+[Sun Sep 29 16:38:49 202] - next
+[Sun Sep 29 16:38:50 202] - next
+[Sun Sep 29 16:43:53 202] - quit
+[Sun Sep 29 16:43:57 202] - new black
+[Sun Sep 29 16:43:58 202] - next
+[Sun Sep 29 16:44:13 202] - new black
+[Sun Sep 29 16:44:14 202] - next
+[Sun Sep 29 16:44:15 202] - next
+[Sun Sep 29 16:44:15 202] - next
+[Sun Sep 29 16:44:15 202] - next
+[Sun Sep 29 16:44:16 202] - next
+[Sun Sep 29 16:44:16 202] - next
+[Sun Sep 29 16:44:16 202] - next
+[Sun Sep 29 16:44:16 202] - next
+[Sun Sep 29 16:44:16 202] - next
+[Sun Sep 29 16:44:17 202] - next
+[Sun Sep 29 16:44:17 202] - next
+[Sun Sep 29 16:44:17 202] - next
+[Sun Sep 29 16:44:17 202] - next
+[Sun Sep 29 16:44:17 202] - next
+[Sun Sep 29 16:44:18 202] - next
+[Sun Sep 29 16:44:18 202] - next
+[Sun Sep 29 16:44:18 202] - next
+[Sun Sep 29 16:44:18 202] - next
+[Sun Sep 29 16:44:18 202] - next
+[Sun Sep 29 16:44:19 202] - next
+[Sun Sep 29 16:44:19 202] - next
+[Sun Sep 29 16:44:19 202] - next
+[Sun Sep 29 16:44:19 202] - next
+[Sun Sep 29 16:44:20 202] - next
+[Sun Sep 29 16:44:20 202] - next
+[Sun Sep 29 16:44:20 202] - next
+[Sun Sep 29 16:44:20 202] - next
+[Sun Sep 29 16:44:20 202] - next
+[Sun Sep 29 16:44:21 202] - next
+[Sun Sep 29 16:44:21 202] - next
+[Sun Sep 29 16:44:21 202] - next
+[Sun Sep 29 16:44:21 202] - next
+[Sun Sep 29 16:44:22 202] - next
+[Sun Sep 29 16:44:22 202] - next
+[Sun Sep 29 16:44:22 202] - next
+[Sun Sep 29 16:44:22 202] - next
+[Sun Sep 29 16:44:23 202] - next
+[Sun Sep 29 16:44:23 202] - next
+[Sun Sep 29 16:44:23 202] - next
+[Sun Sep 29 16:44:23 202] - next
+[Sun Sep 29 16:44:23 202] - next
+[Sun Sep 29 16:44:24 202] - next
+[Sun Sep 29 16:44:24 202] - next
+[Sun Sep 29 16:44:24 202] - next
+[Sun Sep 29 16:44:24 202] - next
+[Sun Sep 29 16:44:25 202] - next
+[Sun Sep 29 16:44:25 202] - next
+[Sun Sep 29 16:44:25 202] - next
+[Sun Sep 29 16:44:25 202] - next
+[Sun Sep 29 16:44:26 202] - next
+[Sun Sep 29 16:44:26 202] - next
+[Sun Sep 29 16:44:26 202] - next
+[Sun Sep 29 16:44:26 202] - next
+[Sun Sep 29 16:44:27 202] - next
+[Sun Sep 29 16:44:27 202] - next
+[Sun Sep 29 16:44:27 202] - next
+[Sun Sep 29 16:44:27 202] - next
+[Sun Sep 29 16:44:28 202] - next
+[Sun Sep 29 16:44:28 202] - next
+[Sun Sep 29 16:44:28 202] - next
+[Sun Sep 29 16:44:28 202] - next
+[Sun Sep 29 16:44:29 202] - next
+[Sun Sep 29 16:44:29 202] - next
+[Sun Sep 29 16:44:29 202] - next
+[Sun Sep 29 16:44:29 202] - next
+[Sun Sep 29 16:44:29 202] - next
+[Sun Sep 29 16:44:30 202] - next
+[Sun Sep 29 16:44:30 202] - next
+[Sun Sep 29 16:44:30 202] - next
+[Sun Sep 29 16:44:30 202] - next
+[Sun Sep 29 16:44:31 202] - next
+[Sun Sep 29 16:44:31 202] - next
+[Sun Sep 29 16:44:31 202] - next
+[Sun Sep 29 16:44:31 202] - next
+[Sun Sep 29 16:44:32 202] - next
+[Sun Sep 29 16:44:32 202] - next
+[Sun Sep 29 16:44:32 202] - next
+[Sun Sep 29 16:44:32 202] - next
+[Sun Sep 29 16:44:33 202] - next
+[Sun Sep 29 16:44:33 202] - next
+[Sun Sep 29 16:44:33 202] - next
+[Sun Sep 29 16:44:33 202] - next
+[Sun Sep 29 16:44:34 202] - next
+[Sun Sep 29 16:44:34 202] - next
+[Sun Sep 29 16:44:34 202] - next
+[Sun Sep 29 16:44:34 202] - next
+[Sun Sep 29 16:44:35 202] - new black
+[Sun Sep 29 16:44:35 202] - new black
+[Sun Sep 29 16:44:36 202] - new black
+[Sun Sep 29 16:44:36 202] - new black
+[Sun Sep 29 16:44:37 202] - next
+[Sun Sep 29 16:44:38 202] - next
+[Sun Sep 29 16:44:38 202] - next
+[Sun Sep 29 16:44:38 202] - next
+[Sun Sep 29 16:44:38 202] - next
+[Sun Sep 29 16:44:39 202] - next
+[Sun Sep 29 16:44:39 202] - next
+[Sun Sep 29 16:44:39 202] - next
+[Sun Sep 29 16:44:40 202] - next
+[Sun Sep 29 16:44:40 202] - next
+[Sun Sep 29 16:44:40 202] - next
+[Sun Sep 29 16:44:40 202] - next
+[Sun Sep 29 16:44:40 202] - next
+[Sun Sep 29 16:44:41 202] - next
+[Sun Sep 29 16:44:42 202] - next
+[Sun Sep 29 16:44:42 202] - next
+[Sun Sep 29 16:44:42 202] - next
+[Sun Sep 29 16:44:43 202] - next
+[Sun Sep 29 16:44:43 202] - next
+[Sun Sep 29 16:44:43 202] - next
+[Sun Sep 29 16:44:43 202] - next
+[Sun Sep 29 16:44:43 202] - next
+[Sun Sep 29 16:44:44 202] - next
+[Sun Sep 29 16:44:44 202] - next
+[Sun Sep 29 16:44:44 202] - next
+[Sun Sep 29 16:44:44 202] - next
+[Sun Sep 29 16:44:45 202] - next
+[Sun Sep 29 16:44:45 202] - next
+[Sun Sep 29 16:44:45 202] - next
+[Sun Sep 29 16:44:45 202] - next
+[Sun Sep 29 16:44:46 202] - next
+[Sun Sep 29 16:44:46 202] - next
+[Sun Sep 29 16:44:46 202] - next
+[Sun Sep 29 16:44:46 202] - next
+[Sun Sep 29 16:44:46 202] - next
+[Sun Sep 29 16:44:47 202] - next
+[Sun Sep 29 16:44:47 202] - next
+[Sun Sep 29 16:44:47 202] - next
+[Sun Sep 29 16:44:48 202] - next
+[Sun Sep 29 16:44:48 202] - next
+[Sun Sep 29 16:44:48 202] - next
+[Sun Sep 29 16:44:48 202] - next
+[Sun Sep 29 16:44:49 202] - next
+[Sun Sep 29 16:44:49 202] - next
+[Sun Sep 29 16:44:49 202] - next
+[Sun Sep 29 16:44:49 202] - next
+[Sun Sep 29 16:44:50 202] - next
+[Sun Sep 29 16:44:50 202] - next
+[Sun Sep 29 16:44:50 202] - next
+[Sun Sep 29 16:44:50 202] - next
+[Sun Sep 29 16:44:51 202] - next
+[Sun Sep 29 16:44:51 202] - next
+[Sun Sep 29 16:44:51 202] - next
+[Sun Sep 29 16:44:51 202] - next
+[Sun Sep 29 16:44:52 202] - next
+[Sun Sep 29 16:44:52 202] - next
+[Sun Sep 29 16:44:52 202] - next
+[Sun Sep 29 16:44:52 202] - next
+[Sun Sep 29 16:44:53 202] - next
+[Sun Sep 29 16:44:53 202] - next
+[Sun Sep 29 16:44:54 202] - next
+[Sun Sep 29 16:44:54 202] - next
+[Sun Sep 29 16:44:54 202] - next
+[Sun Sep 29 16:44:54 202] - next
+[Sun Sep 29 16:44:55 202] - next
+[Sun Sep 29 16:44:55 202] - next
+[Sun Sep 29 16:44:55 202] - next
+[Sun Sep 29 16:44:55 202] - next
+[Sun Sep 29 16:44:55 202] - next
+[Sun Sep 29 16:44:56 202] - next
+[Sun Sep 29 16:44:56 202] - next
+[Sun Sep 29 16:44:56 202] - next
+[Sun Sep 29 16:44:56 202] - next
+[Sun Sep 29 16:44:57 202] - next
+[Sun Sep 29 16:44:57 202] - next
+[Sun Sep 29 16:44:57 202] - next
+[Sun Sep 29 16:44:57 202] - next
+[Sun Sep 29 16:44:57 202] - next
+[Sun Sep 29 16:44:58 202] - next
+[Sun Sep 29 16:44:58 202] - next
+[Sun Sep 29 16:44:58 202] - next
+[Sun Sep 29 16:44:59 202] - next
+[Sun Sep 29 16:44:59 202] - next
+[Sun Sep 29 16:44:59 202] - next
+[Sun Sep 29 16:44:59 202] - next
+[Sun Sep 29 16:45:00 202] - next
+[Sun Sep 29 16:45:00 202] - next
+[Sun Sep 29 16:45:00 202] - next
+[Sun Sep 29 16:45:00 202] - next
+[Sun Sep 29 16:45:01 202] - next
+[Sun Sep 29 16:45:01 202] - next
+[Sun Sep 29 16:45:01 202] - next
+[Sun Sep 29 16:45:01 202] - next
+[Sun Sep 29 16:45:02 202] - next
+[Sun Sep 29 16:45:02 202] - next
+[Sun Sep 29 16:45:02 202] - next
+[Sun Sep 29 16:45:02 202] - next
+[Sun Sep 29 16:45:03 202] - next
+[Sun Sep 29 16:45:03 202] - next
+[Sun Sep 29 16:45:03 202] - next
+[Sun Sep 29 16:45:04 202] - next
+[Sun Sep 29 16:45:04 202] - next
+[Sun Sep 29 16:45:04 202] - next
+[Sun Sep 29 16:45:05 202] - next
+[Sun Sep 29 16:45:05 202] - next
+[Sun Sep 29 16:45:05 202] - next
+[Sun Sep 29 16:45:05 202] - next
+[Sun Sep 29 16:45:06 202] - next
+[Sun Sep 29 16:45:06 202] - next
+[Sun Sep 29 16:45:06 202] - next
+[Sun Sep 29 16:45:07 202] - next
+[Sun Sep 29 16:45:07 202] - next
+[Sun Sep 29 16:45:07 202] - next
+[Sun Sep 29 16:45:07 202] - next
+[Sun Sep 29 16:45:08 202] - next
+[Sun Sep 29 16:45:08 202] - next
+[Sun Sep 29 16:45:08 202] - next
+[Sun Sep 29 16:45:09 202] - next
+[Sun Sep 29 16:45:09 202] - next
+[Sun Sep 29 16:45:09 202] - next
+[Sun Sep 29 16:45:09 202] - next
+[Sun Sep 29 16:45:10 202] - next
+[Sun Sep 29 16:45:10 202] - next
+[Sun Sep 29 16:45:10 202] - next
+[Sun Sep 29 16:45:11 202] - next
+[Sun Sep 29 16:45:11 202] - next
+[Sun Sep 29 16:45:11 202] - next
+[Sun Sep 29 16:45:11 202] - next
+[Sun Sep 29 16:45:12 202] - next
+[Sun Sep 29 16:45:12 202] - next
+[Sun Sep 29 16:45:12 202] - next
+[Sun Sep 29 16:45:13 202] - next
+[Sun Sep 29 16:45:13 202] - next
+[Sun Sep 29 16:45:13 202] - next
+[Sun Sep 29 16:45:14 202] - next
+[Sun Sep 29 16:45:14 202] - next
+[Sun Sep 29 16:45:14 202] - next
+[Sun Sep 29 16:45:15 202] - next
+[Sun Sep 29 16:45:15 202] - next
+[Sun Sep 29 16:45:15 202] - next
+[Sun Sep 29 16:45:16 202] - next
+[Sun Sep 29 16:45:16 202] - next
+[Sun Sep 29 16:45:16 202] - next
+[Sun Sep 29 16:45:16 202] - next
+[Sun Sep 29 16:45:17 202] - next
+[Sun Sep 29 16:45:17 202] - next
+[Sun Sep 29 16:45:17 202] - next
+[Sun Sep 29 16:45:18 202] - next
+[Sun Sep 29 16:45:18 202] - next
+[Sun Sep 29 16:45:18 202] - next
+[Sun Sep 29 16:45:19 202] - next
+[Sun Sep 29 16:45:19 202] - next
+[Sun Sep 29 16:45:19 202] - next
+[Sun Sep 29 16:45:19 202] - next
+[Sun Sep 29 16:45:20 202] - next
+[Sun Sep 29 16:45:20 202] - next
+[Sun Sep 29 16:45:20 202] - next
+[Sun Sep 29 16:45:21 202] - next
+[Sun Sep 29 16:45:21 202] - next
+[Sun Sep 29 16:45:21 202] - next
+[Sun Sep 29 16:45:22 202] - next
+[Sun Sep 29 16:45:22 202] - next
+[Sun Sep 29 16:45:22 202] - next
+[Sun Sep 29 16:45:22 202] - next
+[Sun Sep 29 16:45:23 202] - next
+[Sun Sep 29 16:45:23 202] - next
+[Sun Sep 29 16:45:23 202] - next
+[Sun Sep 29 16:45:24 202] - next
+[Sun Sep 29 16:45:24 202] - next
+[Sun Sep 29 16:45:24 202] - next
+[Sun Sep 29 16:45:24 202] - next
+[Sun Sep 29 16:45:25 202] - next
+[Sun Sep 29 16:45:25 202] - next
+[Sun Sep 29 16:45:25 202] - next
+[Sun Sep 29 16:45:26 202] - next
+[Sun Sep 29 16:45:26 202] - next
+[Sun Sep 29 16:45:26 202] - next
+[Sun Sep 29 16:45:27 202] - next
+[Sun Sep 29 16:45:27 202] - next
+[Sun Sep 29 16:45:28 202] - next
+[Sun Sep 29 16:45:28 202] - next
+[Sun Sep 29 16:45:29 202] - next
+[Sun Sep 29 16:45:34 202] - new black
+[Sun Sep 29 16:45:36 202] - next
+[Sun Sep 29 16:45:42 202] - print
+[Sun Sep 29 16:46:12 202] - next
+[Sun Sep 29 16:46:34 202] - quit
+[Sun Sep 29 16:46:38 202] - new black
+[Sun Sep 29 16:46:44 202] - move AABB
+[Sun Sep 29 16:52:45 202] - quit
+[Sun Sep 29 16:52:51 202] - new black
+[Sun Sep 29 16:52:58 202] - move AA
+[Sun Sep 29 16:55:27 202] - quit
+[Sun Sep 29 16:55:31 202] - new black
+[Sun Sep 29 16:55:33 202] - print
+[Sun Sep 29 16:55:36 202] - move AABB
+[Sun Sep 29 16:56:31 202] - quit
+[Sun Sep 29 16:56:36 202] - new black
+[Sun Sep 29 16:56:39 202] - move AA
+[Sun Sep 29 16:56:47 202] - new black
+[Sun Sep 29 16:56:50 202] - move AABB
+[Sun Sep 29 16:58:17 202] - quit
+[Sun Sep 29 16:58:25 202] - new black
+[Sun Sep 29 16:58:28 202] - move AABB
+[Sun Sep 29 16:58:34 202] - move CCDD
+[Sun Sep 29 16:58:41 202] - move ASBS
+[Sun Sep 29 16:58:49 202] - move CSDS
+[Sun Sep 29 16:59:00 202] - move ABAC
+[Sun Sep 29 16:59:07 202] - move BACA
+[Sun Sep 29 16:59:16 202] - quit
+[Sun Sep 29 17:37:43 202] - new black
+[Sun Sep 29 17:37:48 202] - move AAAB
+[Sun Sep 29 17:38:09 202] - new black
+[Sun Sep 29 17:38:11 202] - move AAAB
+[Sun Sep 29 17:38:31 202] - new black
+[Sun Sep 29 17:38:34 202] - move AABB
+[Sun Sep 29 17:38:45 202] - new black
+[Sun Sep 29 17:38:47 202] - move AABB
+[Sun Sep 29 17:39:04 202] - new black
+[Sun Sep 29 17:39:06 202] - move AABB
+[Sun Sep 29 17:39:20 202] - +move ABAC
+[Sun Sep 29 17:39:24 202] - move ABAC
+[Sun Sep 29 17:39:33 202] - move CCDD
+[Sun Sep 29 17:39:39 202] - move EEFF
+[Sun Sep 29 17:40:37 202] - new black
+[Sun Sep 29 17:40:40 202] - move AABB
+[Sun Sep 29 17:40:44 202] - move CCDD
+[Sun Sep 29 17:40:49 202] - move EEFF
+[Sun Sep 29 17:45:53 202] - new black
+[Sun Sep 29 17:45:57 202] - move AABB
+[Sun Sep 29 17:46:17 202] - new black
+[Sun Sep 29 17:46:20 202] - move AABB
+[Sun Sep 29 17:46:26 202] - new black
+[Sun Sep 29 17:46:28 202] - move AABB
+[Sun Sep 29 17:47:19 202] - new black
+[Sun Sep 29 17:47:22 202] - move AABB
+[Sun Sep 29 17:47:29 202] - move CCDD
+[Sun Sep 29 17:47:36 202] - move KJLI
+[Sun Sep 29 17:47:48 202] - move SASC
+[Sun Sep 29 17:47:58 202] - move EEFF
+[Mon Sep 30 09:38:28 202] - new black
+[Mon Sep 30 09:38:33 202] - move AABB
+[Mon Sep 30 09:41:28 202] - quit
+[Mon Sep 30 09:41:33 202] - new black
+[Mon Sep 30 09:41:36 202] - move AABB
+[Mon Sep 30 09:41:40 202] - quit
+[Mon Sep 30 09:45:56 202] - new black
+[Mon Sep 30 09:46:00 202] - move AABB
+[Mon Sep 30 09:46:20 202] - new black
+[Mon Sep 30 09:46:21 202] - move AABB
+[Mon Sep 30 09:47:57 202] - new black
+[Mon Sep 30 09:48:00 202] - move AABB
+[Mon Sep 30 09:48:39 202] - new black
+[Mon Sep 30 09:48:40 202] - move AABB
+[Mon Sep 30 09:50:29 202] - new black
+[Mon Sep 30 09:50:30 202] - move AABB
+[Mon Sep 30 09:52:35 202] - new black
+[Mon Sep 30 09:52:37 202] - quit
+[Mon Sep 30 09:52:42 202] - new black
+[Mon Sep 30 09:52:44 202] - move AABB
+[Mon Sep 30 09:53:04 202] - new black
+[Mon Sep 30 09:53:07 202] - move AABB
+[Mon Sep 30 09:53:26 202] - new black
+[Mon Sep 30 09:53:28 202] - move AABB
+[Mon Sep 30 09:54:02 202] - new black
+[Mon Sep 30 09:54:03 202] - move AABB
+[Mon Sep 30 09:55:07 202] - new black
+[Mon Sep 30 09:55:08 202] - move AABB
+[Mon Sep 30 09:56:23 202] - new black
+[Mon Sep 30 09:56:25 202] - move AABB
+[Mon Sep 30 09:58:08 202] - new black
+[Mon Sep 30 09:58:09 202] - move AABB
+[Mon Sep 30 09:59:38 202] - new black
+[Mon Sep 30 09:59:38 202] - move AABB
+[Mon Sep 30 10:00:25 202] - new black
+[Mon Sep 30 10:00:25 202] - move AABB
+[Mon Sep 30 10:00:59 202] - new black
+[Mon Sep 30 10:01:01 202] - move AABB
+[Mon Sep 30 10:01:12 202] - move CCDD
+[Mon Sep 30 10:02:15 202] - move ABAC
+[Mon Sep 30 10:07:08 202] - quit
+[Mon Sep 30 10:07:13 202] - new black
+[Mon Sep 30 10:07:16 202] - move AABB
+[Mon Sep 30 10:07:25 202] - move CCDD
+[Mon Sep 30 10:07:32 202] - move ABAC
+[Mon Sep 30 10:07:39 202] - move BACA
+[Mon Sep 30 10:07:51 202] - move ASSS
+[Mon Sep 30 10:08:04 202] - move SAPP
+[Mon Sep 30 10:08:40 202] - quit
+[Mon Sep 30 10:08:48 202] - new black
+[Mon Sep 30 10:08:51 202] - move AABB
+[Mon Sep 30 10:08:57 202] - move ABBA
+[Mon Sep 30 10:09:05 202] - move ACAD
+[Mon Sep 30 10:09:09 202] - move CCDD
+[Mon Sep 30 10:09:14 202] - move CADA
+[Mon Sep 30 10:09:20 202] - move SAAS
+[Mon Sep 30 10:09:25 202] - move SSPP
+[Mon Sep 30 10:09:30 202] - move SJSH
+[Mon Sep 30 10:09:49 202] - move PSDH
+[Mon Sep 30 10:10:02 202] - move FAGA
+[Mon Sep 30 10:10:24 202] - new black
+[Mon Sep 30 10:10:26 202] - move AABB
+[Mon Sep 30 10:10:31 202] - move SSHH
+[Mon Sep 30 10:10:37 202] - move ABAC
+[Mon Sep 30 10:10:48 202] - move MFAD
+[Mon Sep 30 10:11:02 202] - move NDAE
+[Mon Sep 30 10:11:09 202] - quit
+[Mon Sep 30 10:11:35 202] - new black
+[Mon Sep 30 10:11:38 202] - move AABB
+[Mon Sep 30 10:11:45 202] - move ABAC
+[Mon Sep 30 10:11:57 202] - move BACA
+[Mon Sep 30 10:20:49 202] - quit
+[Mon Sep 30 10:20:55 202] - new black
+[Mon Sep 30 10:20:57 202] - move AA
+[Mon Sep 30 10:21:02 202] - new black
+[Mon Sep 30 10:21:04 202] - move AABB
+[Mon Sep 30 10:21:07 202] - move ABAC
+[Mon Sep 30 10:21:13 202] - move BACA
+[Mon Sep 30 10:21:22 202] - move CCDD
+[Mon Sep 30 10:21:33 202] - qiot
+[Mon Sep 30 10:21:37 202] - quit
+[Mon Sep 30 10:35:45 202] - new black
+[Mon Sep 30 10:35:48 202] - move AABB
+[Mon Sep 30 10:35:53 202] - move CCDD
+[Mon Sep 30 10:36:07 202] - quit
+[Mon Sep 30 10:40:33 202] - new black
+[Mon Sep 30 10:40:35 202] - move AABB
+[Mon Sep 30 10:40:39 202] - move CCDD
+[Mon Sep 30 10:40:49 202] - quit
+[Mon Sep 30 10:46:44 202] - new black
+[Mon Sep 30 10:46:48 202] - move AABB
+[Mon Sep 30 10:47:20 202] - new black
+[Mon Sep 30 10:47:21 202] - move AABB
+[Mon Sep 30 10:47:29 202] - move CDCC
+[Mon Sep 30 10:47:35 202] - move DDEE
+[Mon Sep 30 10:47:43 202] - move ABAC
+[Mon Sep 30 10:47:53 202] - move BACA
+[Mon Sep 30 10:47:58 202] - quit
+[Mon Sep 30 10:50:16 202] - new black
+[Mon Sep 30 10:50:18 202] - move AABB
+[Mon Sep 30 11:01:28 202] - new black
+[Mon Sep 30 11:01:31 202] - move AABB
+[Mon Sep 30 11:01:36 202] - move CCDD
+[Mon Sep 30 11:01:41 202] - move EEAB
+[Mon Sep 30 11:01:47 202] - move CADA
+[Mon Sep 30 11:01:54 202] - move FAGA
+[Mon Sep 30 11:02:00 202] - move AFAG
+[Mon Sep 30 11:02:06 202] - move AMAN
+[Mon Sep 30 11:03:32 202] - new black
+[Mon Sep 30 11:03:37 202] - move AABB
+[Mon Sep 30 11:03:40 202] - move CCDD
+[Mon Sep 30 11:03:44 202] - move ABAC
+[Mon Sep 30 11:03:48 202] - move ADAE
+[Mon Sep 30 11:03:52 202] - move BACA
+[Mon Sep 30 11:03:55 202] - move DAEA
+[Mon Sep 30 11:03:59 202] - quit
+[Mon Sep 30 11:04:54 202] - new black
+[Mon Sep 30 11:04:57 202] - move AABB
+[Mon Sep 30 11:05:00 202] - move CCDD
+[Mon Sep 30 11:05:04 202] - move EEAD
+[Mon Sep 30 11:05:11 202] - quit
+[Mon Sep 30 11:08:50 202] - new black
+[Mon Sep 30 11:08:53 202] - move AABB
+[Mon Sep 30 11:08:58 202] - move CCDD
+[Mon Sep 30 11:09:02 202] - move ABAC
+[Mon Sep 30 11:09:06 202] - move ADAE
+[Mon Sep 30 11:09:27 202] - mew black
+[Mon Sep 30 11:09:37 202] - new black
+[Mon Sep 30 11:09:40 202] - move AABB
+[Mon Sep 30 11:09:45 202] - move BBCC
+[Mon Sep 30 11:09:56 202] - move DDEE
+[Mon Sep 30 11:10:01 202] - move ABAC
+[Mon Sep 30 11:10:04 202] - move CADA
+[Mon Sep 30 11:10:12 202] - move SSSH
+[Mon Sep 30 11:10:33 202] - new black
+[Mon Sep 30 11:10:36 202] - move AABB
+[Mon Sep 30 11:10:39 202] - move CCDD
+[Mon Sep 30 11:10:43 202] - move ABAC
+[Mon Sep 30 11:10:48 202] - move BACA
+[Mon Sep 30 11:10:52 202] - move SHSS
+[Mon Sep 30 11:10:56 202] - quit
+[Mon Sep 30 11:11:26 202] - new black
+[Mon Sep 30 11:11:29 202] - move AABB
+[Mon Sep 30 11:11:32 202] - move CCDD
+[Mon Sep 30 11:11:38 202] - move AEAD
+[Mon Sep 30 11:11:43 202] - move DACA
+[Mon Sep 30 11:11:49 202] - move SGSH
+[Mon Sep 30 11:11:59 202] - move ASCS
+[Mon Sep 30 11:15:19 202] - new black
+[Mon Sep 30 11:15:21 202] - move AABB
+[Mon Sep 30 11:15:24 202] - move CCDD
+[Mon Sep 30 11:15:28 202] - move ACAB
+[Mon Sep 30 11:15:32 202] - move BACA
+[Mon Sep 30 11:15:38 202] - move BCBD
+[Mon Sep 30 11:18:04 202] - new black
+[Mon Sep 30 11:18:07 202] - move AABB
+[Mon Sep 30 11:18:12 202] - move CCDD
+[Mon Sep 30 11:18:17 202] - move ABAC
+[Mon Sep 30 11:18:26 202] - move BACA
+[Mon Sep 30 11:18:32 202] - quit
+[Mon Sep 30 11:19:28 202] - new black
+[Mon Sep 30 11:19:30 202] - move AABB
+[Mon Sep 30 11:19:39 202] - moveCCDD
+[Mon Sep 30 11:19:50 202] - new black
+[Mon Sep 30 11:19:52 202] - move AABB
+[Mon Sep 30 11:19:54 202] - move CCDD
+[Mon Sep 30 11:20:26 202] - quit
+[Mon Sep 30 11:20:30 202] - new black
+[Mon Sep 30 11:20:32 202] - move AABB
+[Mon Sep 30 11:21:16 202] - quit
+[Mon Sep 30 11:21:22 202] - new black
+[Mon Sep 30 11:21:26 202] - move AABB
+[Mon Sep 30 11:22:02 202] - move CCDD
+[Mon Sep 30 11:22:13 202] - move ABAC
+[Mon Sep 30 11:23:19 202] - quit
+[Mon Sep 30 11:23:27 202] - new black
+[Mon Sep 30 11:23:29 202] - move AABB
+[Mon Sep 30 11:23:37 202] - move CCDD
+[Mon Sep 30 11:25:06 202] - quit
+[Mon Sep 30 11:25:14 202] - new black
+[Mon Sep 30 11:25:17 202] - move bAABB
+[Mon Sep 30 11:25:25 202] - new black
+[Mon Sep 30 11:25:28 202] - move AABB
+[Mon Sep 30 11:26:04 202] - quit
+[Mon Sep 30 11:26:09 202] - new black
+[Mon Sep 30 11:26:12 202] - move AABB
+[Mon Sep 30 11:26:21 202] - move CCDD
+[Mon Sep 30 11:26:34 202] - move JFFJ
+[Mon Sep 30 11:27:02 202] - quit
+[Mon Sep 30 11:27:06 202] - new black
+[Mon Sep 30 11:27:09 202] - move AABB
+[Mon Sep 30 11:27:42 202] - quit
+[Mon Sep 30 11:27:47 202] - new black
+[Mon Sep 30 11:27:56 202] - move AABB
+[Mon Sep 30 11:28:27 202] - quit
+[Mon Sep 30 11:28:32 202] - new black
+[Mon Sep 30 11:28:35 202] - move AABB
+[Mon Sep 30 11:30:15 202] - quit
+[Mon Sep 30 11:30:19 202] - new black
+[Mon Sep 30 11:30:23 202] - move AABB
+[Mon Sep 30 11:30:39 202] - quit
+[Mon Sep 30 11:30:49 202] - new black
+[Mon Sep 30 11:30:52 202] - move AABB
+[Mon Sep 30 11:37:13 202] - +quit
+[Mon Sep 30 11:37:16 202] - quit
+[Mon Sep 30 11:37:19 202] - new black
+[Mon Sep 30 11:37:22 202] - move AABB
+[Mon Sep 30 11:39:02 202] - new black
+[Mon Sep 30 11:39:04 202] - move AABB
+[Mon Sep 30 11:41:33 202] - new black
+[Mon Sep 30 11:41:36 202] - move AABB
+[Mon Sep 30 11:43:10 202] - new black
+[Mon Sep 30 11:43:12 202] - move AABB
+[Mon Sep 30 11:50:59 202] - new black
+[Mon Sep 30 11:51:06 202] - move AABB
+[Mon Sep 30 11:52:23 202] - new black
+[Mon Sep 30 11:52:25 202] - move AABB
+[Mon Sep 30 11:54:56 202] - new black
+[Mon Sep 30 11:54:59 202] - move AABB
+[Mon Sep 30 19:05:05 202] - NEW BLACK
+[Mon Sep 30 19:05:08 202] - new black
+[Mon Sep 30 19:05:11 202] - move AABB
+[Mon Sep 30 19:12:08 202] - new black
+[Mon Sep 30 19:12:11 202] - move AABB
+[Mon Sep 30 19:14:05 202] - new black
+[Mon Sep 30 19:14:07 202] - move AABB
+[Mon Sep 30 19:16:20 202] - new black
+[Mon Sep 30 19:16:23 202] - move AABB
+[Mon Sep 30 19:18:11 202] - new black
+[Mon Sep 30 19:18:14 202] - move AABB
+[Mon Sep 30 19:20:19 202] - new black
+[Mon Sep 30 19:20:21 202] - move AABB
+[Mon Sep 30 19:22:29 202] - new black
+[Mon Sep 30 19:22:31 202] - move AABB
+[Mon Sep 30 19:24:13 202] - new black
+[Mon Sep 30 19:24:15 202] - move AABB
+[Mon Sep 30 19:25:35 202] - new black
+[Mon Sep 30 19:25:38 202] - move AABB
+[Mon Sep 30 19:27:17 202] - new black
+[Mon Sep 30 19:27:19 202] - move AABB
+[Mon Sep 30 19:29:40 202] - new black
+[Mon Sep 30 19:29:43 202] - move AABB
+[Mon Sep 30 19:32:53 202] - new black
+[Mon Sep 30 19:32:55 202] - move AABB
+[Mon Sep 30 19:34:59 202] - new black
+[Mon Sep 30 19:35:01 202] - move AABB
+[Mon Sep 30 19:36:16 202] - new black
+[Mon Sep 30 19:36:18 202] - move AABB
+[Mon Sep 30 19:37:22 202] - new black
+[Mon Sep 30 19:37:24 202] - move AABB
+[Mon Sep 30 19:42:44 202] - new black
+[Mon Sep 30 19:42:46 202] - move AABB
+[Mon Sep 30 19:43:36 202] - new black
+[Mon Sep 30 19:43:38 202] - move AABB
+[Mon Sep 30 19:45:01 202] - new black
+[Mon Sep 30 19:45:03 202] - move AABB
+[Mon Sep 30 19:45:49 202] - new black
+[Mon Sep 30 19:45:52 202] - move AABB
+[Mon Sep 30 19:46:59 202] - new black
+[Mon Sep 30 19:47:01 202] - move AABB
+[Mon Sep 30 19:47:30 202] - new black
+[Mon Sep 30 19:47:32 202] - move AABB
+[Mon Sep 30 19:48:40 202] - new black
+[Mon Sep 30 19:48:42 202] - move AABB
+[Mon Sep 30 19:55:12 202] - new black
+[Mon Sep 30 19:55:14 202] - move AABB
+[Mon Sep 30 19:57:50 202] - new black
+[Mon Sep 30 19:57:53 202] - move AABB
+[Mon Sep 30 19:58:07 202] - new black
+[Mon Sep 30 19:58:09 202] - move AABB
+[Mon Sep 30 20:02:08 202] - new black
+[Mon Sep 30 20:02:11 202] - move AABB
+[Mon Sep 30 20:07:26 202] - new black
+[Mon Sep 30 20:07:28 202] - move AABB
+[Mon Sep 30 20:13:14 202] - new black
+[Mon Sep 30 20:13:17 202] - move AABB
+[Mon Sep 30 20:13:56 202] - new black
+[Mon Sep 30 20:13:58 202] - move AABB
+[Mon Sep 30 20:14:39 202] - new black
+[Mon Sep 30 20:14:41 202] - move AABB
+[Mon Sep 30 20:15:56 202] - new black
+[Mon Sep 30 20:15:58 202] - move AABB
+[Mon Sep 30 20:16:25 202] - new black
+[Mon Sep 30 20:16:27 202] - AABB
+[Mon Sep 30 20:16:40 202] - move AABB
+[Mon Sep 30 20:17:19 202] - new black
+[Mon Sep 30 20:17:21 202] - move AABB
+[Mon Sep 30 20:18:18 202] - new black
+[Mon Sep 30 20:18:20 202] - move AABB
+[Mon Sep 30 20:20:03 202] - new black
+[Mon Sep 30 20:20:07 202] - move AABB
+[Mon Sep 30 20:21:04 202] - new black
+[Mon Sep 30 20:21:06 202] - move AABB
+[Mon Sep 30 20:22:00 202] - new black
+[Mon Sep 30 20:22:03 202] - move AABB
+[Mon Sep 30 20:22:10 202] - print
+[Mon Sep 30 20:22:16 202] - quit
+[Mon Sep 30 20:22:57 202] - new black
+[Mon Sep 30 20:22:58 202] - move AABB+
+[Mon Sep 30 20:23:07 202] - new black
+[Mon Sep 30 20:23:09 202] - move AABB
+[Mon Sep 30 20:24:35 202] - quit
+[Mon Sep 30 20:24:42 202] - new black
+[Mon Sep 30 20:24:45 202] - move AABB
+[Mon Sep 30 20:24:53 202] - quit
+[Mon Sep 30 20:25:10 202] - new black
+[Mon Sep 30 20:25:15 202] - move AABB
+[Mon Sep 30 20:25:21 202] - move CCDD
+[Mon Sep 30 20:25:27 202] - move ABAC
+[Mon Sep 30 20:25:33 202] - move BACA
+[Mon Sep 30 20:25:41 202] - move AFAG
+[Mon Sep 30 20:25:49 202] - move AIAJ
+[Mon Sep 30 20:25:57 202] - move EAFA
+[Mon Sep 30 20:26:02 202] - move JAKA
+[Mon Sep 30 20:37:49 202] - new black
+[Mon Sep 30 20:37:50 202] - move AABB
+[Mon Sep 30 20:38:28 202] - move CCDD
+[Mon Sep 30 20:39:09 202] - move EEFF
+[Mon Sep 30 20:53:28 202] - new black
+[Mon Sep 30 20:53:31 202] - move AABB
+[Mon Sep 30 20:53:34 202] - move CCDD
+[Mon Sep 30 20:53:40 202] - move ABAC
+[Mon Sep 30 20:53:48 202] - move BACA
+[Mon Sep 30 20:53:59 202] - move ADAE
+[Mon Sep 30 20:54:14 202] - move DAEA
+[Mon Sep 30 20:56:18 202] - new black
+[Mon Sep 30 20:56:21 202] - move AABB
+[Mon Sep 30 20:56:25 202] - move CCDD
+[Mon Sep 30 20:56:30 202] - move ABAC
+[Mon Sep 30 20:56:43 202] - move BACA
+[Mon Sep 30 20:56:54 202] - move SHHS
+[Mon Sep 30 20:57:03 202] - quit
+[Mon Sep 30 21:02:28 202] - quit
+[Mon Sep 30 21:02:40 202] - new black
+[Mon Sep 30 21:02:43 202] - move AABB
+[Mon Sep 30 21:02:50 202] - move CCDD
+[Mon Sep 30 21:02:59 202] - move ABAC
+[Mon Sep 30 21:03:08 202] - quit
+[Mon Sep 30 21:12:23 202] - new black
+[Mon Sep 30 21:12:26 202] - move AABB
+[Mon Sep 30 21:16:07 202] - new black
+[Mon Sep 30 21:16:11 202] - move AABB
+[Mon Sep 30 21:16:17 202] - move CCDD
+[Mon Sep 30 21:16:24 202] - move ABBA
+[Mon Sep 30 21:16:31 202] - move ACAD
+[Mon Sep 30 21:16:37 202] - move CADA
+[Mon Sep 30 21:16:43 202] - move SHHS
+[Mon Sep 30 21:16:50 202] - move SKKS
+[Mon Sep 30 21:16:57 202] - move SSSR
+[Mon Sep 30 21:17:12 202] - quit
+[Mon Sep 30 21:18:07 202] - new black
+[Mon Sep 30 21:18:10 202] - move AABB
+[Mon Sep 30 21:18:51 202] - move CCDD
+[Mon Sep 30 21:23:06 202] - quit
+[Mon Sep 30 21:23:15 202] - new black
+[Mon Sep 30 21:23:17 202] - move AABB
+[Mon Sep 30 21:23:24 202] - move CCDD
+[Mon Sep 30 21:23:29 202] - move ABAC
+[Mon Sep 30 21:24:51 202] - quit
+[Mon Sep 30 21:24:56 202] - new black
+[Mon Sep 30 21:24:58 202] - move AABB
+[Mon Sep 30 21:25:34 202] - move CCDD
+[Mon Sep 30 21:25:52 202] - move SHHS
+[Mon Sep 30 21:26:33 202] - new black
+[Mon Sep 30 21:26:37 202] - move AABB
+[Mon Sep 30 21:29:18 202] - quit
+[Mon Sep 30 21:29:23 202] - new black
+[Mon Sep 30 21:29:25 202] - move AABB
+[Mon Sep 30 21:33:38 202] - quit
+[Mon Sep 30 21:33:41 202] - new black
+[Mon Sep 30 21:33:43 202] - move AABB
+[Mon Sep 30 21:35:44 202] - new black
+[Mon Sep 30 21:35:46 202] - move AABB
+[Mon Sep 30 21:35:55 202] - move CCDD
+[Mon Sep 30 21:36:02 202] - move ABAC
+[Mon Sep 30 21:36:32 202] - quit
+[Mon Sep 30 21:40:27 202] - new black
+[Mon Sep 30 21:40:29 202] - move AABB
+[Mon Sep 30 21:40:34 202] - move SHHS
+[Mon Sep 30 21:40:42 202] - move ABAC
+[Mon Sep 30 21:42:17 202] - quit
+[Mon Sep 30 21:42:20 202] - new black
+[Mon Sep 30 21:42:23 202] - move AABB
+[Mon Sep 30 21:42:53 202] - quit
+[Mon Sep 30 21:42:57 202] - new black
+[Mon Sep 30 21:42:59 202] - move AABB
+[Mon Sep 30 21:43:30 202] - new black
+[Mon Sep 30 21:43:32 202] - move AABB
+[Mon Sep 30 21:43:39 202] - move SHHS
+[Mon Sep 30 21:43:54 202] - move SAAS
+[Mon Sep 30 21:44:22 202] - quit
+[Mon Sep 30 21:44:27 202] - new black
+[Mon Sep 30 21:44:30 202] - move AABB
+[Mon Sep 30 21:44:35 202] - move SHHS
+[Mon Sep 30 21:44:41 202] - move ASSA
+[Mon Sep 30 21:44:48 202] - quit
+[Mon Sep 30 21:48:02 202] - new black
+[Mon Sep 30 21:48:05 202] - move AABB
+[Mon Sep 30 21:48:14 202] - move SHHS
+[Mon Sep 30 21:48:18 202] - move ASSA
+[Mon Sep 30 21:48:22 202] - quit
+[Mon Sep 30 21:48:33 202] - new black
+[Mon Sep 30 21:48:35 202] - move AABB
+[Mon Sep 30 21:48:40 202] - move SHHS
+[Mon Sep 30 21:48:43 202] - quit
+[Mon Sep 30 21:48:56 202] - new black
+[Mon Sep 30 21:48:59 202] - move AABB
+[Mon Sep 30 21:49:05 202] - move SHHS
+[Mon Sep 30 21:49:09 202] - moveASSA
+[Mon Sep 30 21:49:13 202] - new black
+[Mon Sep 30 21:49:16 202] - move ASSA
+[Mon Sep 30 21:49:19 202] - HSSH
+[Mon Sep 30 21:49:23 202] - move HSSH
+[Mon Sep 30 21:49:29 202] - move AFFA
+[Mon Sep 30 21:50:56 202] - quit
+[Mon Sep 30 21:51:03 202] - new black
+[Mon Sep 30 21:51:04 202] - move AABB
+[Mon Sep 30 21:51:08 202] - move SHHS
+[Mon Sep 30 21:51:32 202] - move GAAG
+[Mon Sep 30 21:51:50 202] - new black
+[Mon Sep 30 21:51:52 202] - move AABB
+[Mon Sep 30 21:51:55 202] - move CCDD
+[Mon Sep 30 21:51:58 202] - move EEFF
+[Mon Sep 30 21:52:08 202] - new black
+[Mon Sep 30 21:52:16 202] - move IJJI
+[Mon Sep 30 21:52:33 202] - move MJKI
+[Mon Sep 30 21:52:48 202] - move LHLK
+[Mon Sep 30 21:53:10 202] - move OFJK
+[Mon Sep 30 21:53:23 202] - quit
