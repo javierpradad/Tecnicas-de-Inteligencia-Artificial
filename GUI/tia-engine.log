@@ -957,3 +957,160 @@
 [Mon Sep 30 21:55:04 202] - black DFJI
 [Mon Sep 30 21:55:04 202] - white EEFD
 [Mon Sep 30 21:55:04 202] - next
+[Mon Nov  4 19:50:17 202] - name
+[Mon Nov  4 19:50:17 202] - depth 4
+[Mon Nov  4 19:50:17 202] - vcf
+[Mon Nov  4 19:50:23 202] - name
+[Mon Nov  4 19:50:23 202] - depth 4
+[Mon Nov  4 19:50:23 202] - vcf
+[Mon Nov  4 19:50:23 202] - new xxx
+[Mon Nov  4 19:50:23 202] - next
+[Mon Nov  4 19:50:26 202] - new xxx
+[Mon Nov  4 19:50:26 202] - black JJJJ
+[Mon Nov  4 19:50:26 202] - white JKIK
+[Mon Nov  4 19:50:26 202] - next
+[Mon Nov  4 19:50:28 202] - new xxx
+[Mon Nov  4 19:50:28 202] - black JJJJ
+[Mon Nov  4 19:50:28 202] - white JKIK
+[Mon Nov  4 19:50:28 202] - black KKKJ
+[Mon Nov  4 19:50:28 202] - white KLKI
+[Mon Nov  4 19:50:28 202] - next
+[Mon Nov  4 19:50:32 202] - new xxx
+[Mon Nov  4 19:50:32 202] - black JJJJ
+[Mon Nov  4 19:50:32 202] - white JKIK
+[Mon Nov  4 19:50:32 202] - black KKKJ
+[Mon Nov  4 19:50:32 202] - white KLKI
+[Mon Nov  4 19:50:32 202] - black LHIJ
+[Mon Nov  4 19:50:32 202] - white HKHJ
+[Mon Nov  4 19:50:32 202] - next
+[Mon Nov  4 19:50:35 202] - new xxx
+[Mon Nov  4 19:50:35 202] - black JJJJ
+[Mon Nov  4 19:50:35 202] - white JKIK
+[Mon Nov  4 19:50:35 202] - black KKKJ
+[Mon Nov  4 19:50:35 202] - white KLKI
+[Mon Nov  4 19:50:35 202] - black LHIJ
+[Mon Nov  4 19:50:35 202] - white HKHJ
+[Mon Nov  4 19:50:35 202] - black IIKH
+[Mon Nov  4 19:50:35 202] - white IHLJ
+[Mon Nov  4 19:50:35 202] - next
+[Mon Nov  4 19:50:40 202] - new xxx
+[Mon Nov  4 19:50:40 202] - black JJJJ
+[Mon Nov  4 19:50:40 202] - white JKIK
+[Mon Nov  4 19:50:40 202] - black KKKJ
+[Mon Nov  4 19:50:40 202] - white KLKI
+[Mon Nov  4 19:50:40 202] - black LHIJ
+[Mon Nov  4 19:50:40 202] - white HKHJ
+[Mon Nov  4 19:50:40 202] - black IIKH
+[Mon Nov  4 19:50:40 202] - white IHLJ
+[Mon Nov  4 19:50:40 202] - black GILL
+[Mon Nov  4 19:50:40 202] - white MMHI
+[Mon Nov  4 19:50:40 202] - next
+[Mon Nov  4 19:50:50 202] - name
+[Mon Nov  4 19:50:50 202] - depth 4
+[Mon Nov  4 19:50:50 202] - vcf
+[Mon Nov  4 19:50:50 202] - new xxx
+[Mon Nov  4 19:50:50 202] - next
+[Mon Nov  4 19:50:51 202] - new xxx
+[Mon Nov  4 19:50:51 202] - black JJJJ
+[Mon Nov  4 19:50:51 202] - white EFEG
+[Mon Nov  4 19:50:51 202] - next
+[Mon Nov  4 19:50:53 202] - new xxx
+[Mon Nov  4 19:50:53 202] - black JJJJ
+[Mon Nov  4 19:50:53 202] - white EFEG
+[Mon Nov  4 19:50:53 202] - black EEDE
+[Mon Nov  4 19:50:53 202] - white EHEI
+[Mon Nov  4 19:50:53 202] - next
+[Mon Nov  4 19:53:27 202] - name
+[Mon Nov  4 19:53:27 202] - depth 4
+[Mon Nov  4 19:53:27 202] - vcf
+[Mon Nov  4 19:53:30 202] - name
+[Mon Nov  4 19:53:30 202] - depth 4
+[Mon Nov  4 19:53:30 202] - vcf
+[Mon Nov  4 19:53:30 202] - new xxx
+[Mon Nov  4 19:53:30 202] - next
+[Mon Nov  4 19:55:37 202] - name
+[Mon Nov  4 19:55:37 202] - depth 4
+[Mon Nov  4 19:55:37 202] - vcf
+[Mon Nov  4 19:55:39 202] - name
+[Mon Nov  4 19:55:39 202] - depth 4
+[Mon Nov  4 19:55:39 202] - vcf
+[Mon Nov  4 19:55:40 202] - new xxx
+[Mon Nov  4 19:55:40 202] - next
+[Mon Nov  4 19:55:41 202] - new xxx
+[Mon Nov  4 19:55:41 202] - black JJJJ
+[Mon Nov  4 19:55:41 202] - white IKJK
+[Mon Nov  4 19:55:41 202] - next
+[Mon Nov  4 19:55:43 202] - new xxx
+[Mon Nov  4 19:55:43 202] - black JJJJ
+[Mon Nov  4 19:55:43 202] - white IKJK
+[Mon Nov  4 19:55:43 202] - black JIJH
+[Mon Nov  4 19:55:43 202] - white IIIJ
+[Mon Nov  4 19:55:43 202] - next
+[Mon Nov  4 19:55:52 202] - new xxx
+[Mon Nov  4 19:55:52 202] - black JJJJ
+[Mon Nov  4 19:55:52 202] - white IKJK
+[Mon Nov  4 19:55:52 202] - black JIJH
+[Mon Nov  4 19:55:52 202] - white IIIJ
+[Mon Nov  4 19:55:52 202] - black IHHG
+[Mon Nov  4 19:55:52 202] - white KJKK
+[Mon Nov  4 19:55:52 202] - next
+[Mon Nov  4 19:55:59 202] - new xxx
+[Mon Nov  4 19:55:59 202] - black JJJJ
+[Mon Nov  4 19:55:59 202] - white IKJK
+[Mon Nov  4 19:55:59 202] - black JIJH
+[Mon Nov  4 19:55:59 202] - white IIIJ
+[Mon Nov  4 19:55:59 202] - black IHHG
+[Mon Nov  4 19:55:59 202] - white KJKK
+[Mon Nov  4 19:55:59 202] - black JGGF
+[Mon Nov  4 19:55:59 202] - white FEJE
+[Mon Nov  4 19:55:59 202] - next
+[Mon Nov  4 19:56:04 202] - new xxx
+[Mon Nov  4 19:56:04 202] - black JJJJ
+[Mon Nov  4 19:56:04 202] - white IKJK
+[Mon Nov  4 19:56:04 202] - black JIJH
+[Mon Nov  4 19:56:04 202] - white IIIJ
+[Mon Nov  4 19:56:04 202] - black IHHG
+[Mon Nov  4 19:56:04 202] - white KJKK
+[Mon Nov  4 19:56:04 202] - black JGGF
+[Mon Nov  4 19:56:04 202] - white FEJE
+[Mon Nov  4 19:56:04 202] - black JFKF
+[Mon Nov  4 19:56:04 202] - white IFLF
+[Mon Nov  4 19:56:04 202] - next
+[Mon Nov  4 19:56:08 202] - name
+[Mon Nov  4 19:56:08 202] - depth 4
+[Mon Nov  4 19:56:08 202] - vcf
+[Mon Nov  4 19:56:08 202] - new xxx
+[Mon Nov  4 19:56:08 202] - next
+[Mon Nov  4 19:56:09 202] - new xxx
+[Mon Nov  4 19:56:09 202] - black JJJJ
+[Mon Nov  4 19:56:09 202] - white BBBC
+[Mon Nov  4 19:56:09 202] - next
+[Mon Nov  4 19:56:10 202] - new xxx
+[Mon Nov  4 19:56:10 202] - black JJJJ
+[Mon Nov  4 19:56:10 202] - white BBBC
+[Mon Nov  4 19:56:10 202] - black JIJH
+[Mon Nov  4 19:56:10 202] - white BDBE
+[Mon Nov  4 19:56:10 202] - next
+[Mon Nov  4 19:56:16 202] - name
+[Mon Nov  4 19:56:16 202] - depth 4
+[Mon Nov  4 19:56:16 202] - vcf
+[Mon Nov  4 19:56:16 202] - new xxx
+[Mon Nov  4 19:56:16 202] - next
+[Mon Nov  4 19:56:18 202] - new xxx
+[Mon Nov  4 19:56:18 202] - black JJJJ
+[Mon Nov  4 19:56:18 202] - white DFDG
+[Mon Nov  4 19:56:18 202] - next
+[Mon Nov  4 19:56:19 202] - new xxx
+[Mon Nov  4 19:56:19 202] - black JJJJ
+[Mon Nov  4 19:56:19 202] - white DFDG
+[Mon Nov  4 19:56:19 202] - black JIJH
+[Mon Nov  4 19:56:19 202] - white FCFG
+[Mon Nov  4 19:56:19 202] - next
+[Mon Nov  4 19:56:20 202] - new xxx
+[Mon Nov  4 19:56:20 202] - black JJJJ
+[Mon Nov  4 19:56:20 202] - white DFDG
+[Mon Nov  4 19:56:20 202] - black JIJH
+[Mon Nov  4 19:56:20 202] - white FCFG
+[Mon Nov  4 19:56:20 202] - black JGJF
+[Mon Nov  4 19:56:20 202] - white HOLP
+[Mon Nov  4 19:56:20 202] - next

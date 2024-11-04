@@ -10,9 +10,8 @@ class SearchEngine():
         self.color_ia = None
         self.color_jugador = None
 
-    def before_search(self, board, color, alphabeta_depth, color_ia):
+    def before_search(self, board, color_ia, alphabeta_depth):
         self.m_board = [row[:] for row in board]
-        self.m_chess_type = color
         self.m_alphabeta_depth = alphabeta_depth
         self.m_total_nodes = 0
         self.color_ia = color_ia

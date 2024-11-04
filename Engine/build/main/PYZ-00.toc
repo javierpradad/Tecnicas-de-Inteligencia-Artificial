@@ -1,5 +1,5 @@
 ('D:\\Clase\\Universidad\\Máster\\Técnicas de Inteligencia '
- 'Artificial\\Práctica\\Connect6Engine\\build\\main\\PYZ-00.pyz',
+ 'Artificial\\Práctica\\Tecnicas-de-Inteligencia-Artificial\\Engine\\build\\main\\PYZ-00.pyz',
  [('_compat_pickle',
    'C:\\Users\\Javi '
    'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_compat_pickle.py',
@@ -78,7 +78,7 @@
    'PYMODULE'),
   ('defines',
    'D:\\Clase\\Universidad\\Máster\\Técnicas de Inteligencia '
-   'Artificial\\Práctica\\Connect6Engine\\defines.py',
+   'Artificial\\Práctica\\Tecnicas-de-Inteligencia-Artificial\\Engine\\defines.py',
    'PYMODULE'),
   ('dis',
    'C:\\Users\\Javi '
@@ -174,7 +174,7 @@
    'PYMODULE'),
   ('game_engine',
    'D:\\Clase\\Universidad\\Máster\\Técnicas de Inteligencia '
-   'Artificial\\Práctica\\Connect6Engine\\game_engine.py',
+   'Artificial\\Práctica\\Tecnicas-de-Inteligencia-Artificial\\Engine\\game_engine.py',
    'PYMODULE'),
   ('getopt',
    'C:\\Users\\Javi '
@@ -326,7 +326,7 @@
    'PYMODULE'),
   ('search_engine',
    'D:\\Clase\\Universidad\\Máster\\Técnicas de Inteligencia '
-   'Artificial\\Práctica\\Connect6Engine\\search_engine.py',
+   'Artificial\\Práctica\\Tecnicas-de-Inteligencia-Artificial\\Engine\\search_engine.py',
    'PYMODULE'),
   ('selectors',
    'C:\\Users\\Javi '
@@ -386,7 +386,7 @@
    'PYMODULE'),
   ('tools',
    'D:\\Clase\\Universidad\\Máster\\Técnicas de Inteligencia '
-   'Artificial\\Práctica\\Connect6Engine\\tools.py',
+   'Artificial\\Práctica\\Tecnicas-de-Inteligencia-Artificial\\Engine\\tools.py',
    'PYMODULE'),
   ('tracemalloc',
    'C:\\Users\\Javi '

@@ -1,5 +1,5 @@
 ('D:\\Clase\\Universidad\\Máster\\Técnicas de Inteligencia '
- 'Artificial\\Práctica\\Connect6Engine\\dist\\main.exe',
+ 'Artificial\\Práctica\\Tecnicas-de-Inteligencia-Artificial\\Engine\\dist\\main.exe',
  True,
  False,
  False,
@@ -32,31 +32,31 @@
  None,
  None,
  'D:\\Clase\\Universidad\\Máster\\Técnicas de Inteligencia '
- 'Artificial\\Práctica\\Connect6Engine\\build\\main\\main.pkg',
+ 'Artificial\\Práctica\\Tecnicas-de-Inteligencia-Artificial\\Engine\\build\\main\\main.pkg',
  [('pyi-contents-directory _internal', '', 'OPTION'),
   ('PYZ-00.pyz',
    'D:\\Clase\\Universidad\\Máster\\Técnicas de Inteligencia '
-   'Artificial\\Práctica\\Connect6Engine\\build\\main\\PYZ-00.pyz',
+   'Artificial\\Práctica\\Tecnicas-de-Inteligencia-Artificial\\Engine\\build\\main\\PYZ-00.pyz',
    'PYZ'),
   ('struct',
    'D:\\Clase\\Universidad\\Máster\\Técnicas de Inteligencia '
-   'Artificial\\Práctica\\Connect6Engine\\build\\main\\localpycs\\struct.pyc',
+   'Artificial\\Práctica\\Tecnicas-de-Inteligencia-Artificial\\Engine\\build\\main\\localpycs\\struct.pyc',
    'PYMODULE'),
   ('pyimod01_archive',
    'D:\\Clase\\Universidad\\Máster\\Técnicas de Inteligencia '
-   'Artificial\\Práctica\\Connect6Engine\\build\\main\\localpycs\\pyimod01_archive.pyc',
+   'Artificial\\Práctica\\Tecnicas-de-Inteligencia-Artificial\\Engine\\build\\main\\localpycs\\pyimod01_archive.pyc',
    'PYMODULE'),
   ('pyimod02_importers',
    'D:\\Clase\\Universidad\\Máster\\Técnicas de Inteligencia '
-   'Artificial\\Práctica\\Connect6Engine\\build\\main\\localpycs\\pyimod02_importers.pyc',
+   'Artificial\\Práctica\\Tecnicas-de-Inteligencia-Artificial\\Engine\\build\\main\\localpycs\\pyimod02_importers.pyc',
    'PYMODULE'),
   ('pyimod03_ctypes',
    'D:\\Clase\\Universidad\\Máster\\Técnicas de Inteligencia '
-   'Artificial\\Práctica\\Connect6Engine\\build\\main\\localpycs\\pyimod03_ctypes.pyc',
+   'Artificial\\Práctica\\Tecnicas-de-Inteligencia-Artificial\\Engine\\build\\main\\localpycs\\pyimod03_ctypes.pyc',
    'PYMODULE'),
   ('pyimod04_pywin32',
    'D:\\Clase\\Universidad\\Máster\\Técnicas de Inteligencia '
-   'Artificial\\Práctica\\Connect6Engine\\build\\main\\localpycs\\pyimod04_pywin32.pyc',
+   'Artificial\\Práctica\\Tecnicas-de-Inteligencia-Artificial\\Engine\\build\\main\\localpycs\\pyimod04_pywin32.pyc',
    'PYMODULE'),
   ('pyiboot01_bootstrap',
    'C:\\Users\\Javi '
@@ -68,7 +68,7 @@
    'PYSOURCE'),
   ('main',
    'D:\\Clase\\Universidad\\Máster\\Técnicas de Inteligencia '
-   'Artificial\\Práctica\\Connect6Engine\\main.py',
+   'Artificial\\Práctica\\Tecnicas-de-Inteligencia-Artificial\\Engine\\main.py',
    'PYSOURCE'),
   ('python311.dll',
    'C:\\Users\\Javi '
@@ -112,12 +112,12 @@
    'BINARY'),
   ('base_library.zip',
    'D:\\Clase\\Universidad\\Máster\\Técnicas de Inteligencia '
-   'Artificial\\Práctica\\Connect6Engine\\build\\main\\base_library.zip',
+   'Artificial\\Práctica\\Tecnicas-de-Inteligencia-Artificial\\Engine\\build\\main\\base_library.zip',
    'DATA')],
  [],
  False,
  False,
- 1727726032,
+ 1730746515,
  [('run.exe',
    'C:\\Users\\Javi '
    'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',

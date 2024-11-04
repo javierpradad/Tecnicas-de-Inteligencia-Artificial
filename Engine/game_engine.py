@@ -16,7 +16,7 @@ class GameEngine:
         self.init_game()
         self.m_search_engine = SearchEngine()
         self.m_best_move = StoneMove()
-        self.color_ia = Defines.BLACK
+        self.m_chess_type = Defines.BLACK
         self.color_jugador = Defines.WHITE
         self.victoria = False
 
@@ -78,19 +78,16 @@ class GameEngine:
                     self.m_best_move = msg2move("JJ")
                     make_move(self.m_board, self.m_best_move, Defines.BLACK)
                     self.m_chess_type = Defines.BLACK
-                    self.color_ia = Defines.BLACK
                     self.color_jugador = Defines.WHITE
                     msg = "move JJ"
                     print(msg)
                     flush_output()
                 else:
                     self.m_chess_type = Defines.WHITE
-                    self.color_ia = Defines.WHITE
                     self.color_jugador = Defines.BLACK
             elif msg.startswith("move"):
                 self.m_best_move = msg2move(msg[5:])
-                make_move(self.m_board, self.m_best_move, self.m_chess_type ^ 3)
-                
+                make_move(self.m_board, self.m_best_move, self.m_chess_type ^ 3)       
                 if ver_victoria(self.m_board):
                     self.victoria = True
                     #print(f"Score:\t{self.m_search_engine.evaluacion(self.color_jugador, self.victoria)}")
@@ -123,11 +120,11 @@ class GameEngine:
         end = 0
 
         start = time.perf_counter()
-        self.m_search_engine.before_search(self.m_board, self.m_chess_type, self.m_alphabeta_depth, self.color_ia)
+        self.m_search_engine.before_search(self.m_board, self.m_chess_type, self.m_alphabeta_depth)
         score = self.m_search_engine.alpha_beta_search(self.m_alphabeta_depth, Defines.MININT, Defines.MAXINT, ourColor, bestMove, bestMove)
         end = time.perf_counter()
 
-        score = self.m_search_engine.evaluacion(None, self.victoria, self.m_board)
+        score = self.m_search_engine.evaluacion(None, False, self.m_board)
 
         print(f"AB Time:\t{end - start:.3f}")
         print(f"Node:\t{self.m_search_engine.m_total_nodes}\n")
@@ -142,3 +139,33 @@ def flush_output():
 if __name__ == "__main__":
     game_engine = GameEngine()
     game_engine.run()
+
+
+"""elif msg.startswith("black"):
+                print_board(self.m_board, self.m_best_move)
+                if self.color_jugador == Defines.BLACK:
+                    self.m_best_move = msg2move(msg[6:])
+                    make_move(self.m_board, self.m_best_move, Defines.BLACK)
+                    self.m_chess_type = Defines.BLACK
+                else:
+                    if self.search_a_move(self.m_chess_type, self.m_best_move):
+                        msg = f"move {move2msg(self.m_best_move)}"
+                        make_move(self.m_board, self.m_best_move, self.m_chess_type)
+                        print(msg)
+                        print_board(self.m_board, self.m_best_move)
+                        flush_output()
+            elif msg.startswith("white"):
+                if self.color_jugador == Defines.WHITE:
+                    print("Turno jugador")
+                    self.m_best_move = msg2move(msg[6:])
+                    print(f"movimiento: {self.m_best_move}")
+                    make_move(self.m_board, self.m_best_move, Defines.WHITE)
+                    print("Movimiento hecho")
+                    self.m_chess_type = Defines.WHITE
+                else:
+                    if self.search_a_move(self.m_chess_type, self.m_best_move):
+                        msg = f"move {move2msg(self.m_best_move)}"
+                        make_move(self.m_board, self.m_best_move, self.m_chess_type)
+                        print(msg)
+                        print_board(self.m_board, self.m_best_move)
+                        flush_output()"""
