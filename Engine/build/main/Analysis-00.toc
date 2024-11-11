@@ -410,6 +410,10 @@
    'C:\\Users\\Javi '
    'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\signal.py',
    'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\Javi '
+   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_py_abc.py',
+   'PYMODULE'),
   ('stringprep',
    'C:\\Users\\Javi '
    'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\stringprep.py',
@@ -417,10 +421,6 @@
   ('tracemalloc',
    'C:\\Users\\Javi '
    'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tracemalloc.py',
-   'PYMODULE'),
-  ('_py_abc',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_py_abc.py',
    'PYMODULE'),
   ('game_engine',
    'D:\\Clase\\Universidad\\Máster\\Técnicas de Inteligencia '

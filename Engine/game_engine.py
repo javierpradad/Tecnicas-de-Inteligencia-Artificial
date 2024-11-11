@@ -76,6 +76,7 @@ class GameEngine:
                 self.init_game()
                 if msg[4:] == "black":
                     self.m_best_move = msg2move("JJ")
+                    self.m_search_engine.empieza_ia(self.m_best_move)
                     make_move(self.m_board, self.m_best_move, Defines.BLACK)
                     self.m_chess_type = Defines.BLACK
                     self.color_jugador = Defines.WHITE
@@ -120,15 +121,15 @@ class GameEngine:
         end = 0
 
         start = time.perf_counter()
-        self.m_search_engine.before_search(self.m_board, self.m_chess_type, self.m_alphabeta_depth)
+        self.m_search_engine.before_search(self.m_board, self.m_chess_type, self.m_alphabeta_depth, bestMove)
         score = self.m_search_engine.alpha_beta_search(self.m_alphabeta_depth, Defines.MININT, Defines.MAXINT, ourColor, bestMove, bestMove)
         end = time.perf_counter()
 
-        score = self.m_search_engine.evaluacion(None, False, self.m_board)
+        #score = self.m_search_engine.evaluacion(None, False, self.m_board)
 
         print(f"AB Time:\t{end - start:.3f}")
         print(f"Node:\t{self.m_search_engine.m_total_nodes}\n")
-        print(f"Score:\t{score:.3f}")
+        #print(f"Score:\t{score:.3f}")
         return True
 
 def flush_output():
