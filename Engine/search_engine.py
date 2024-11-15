@@ -1,5 +1,6 @@
 from tools import *
 import random
+import copy
 
 class SearchEngine():
     def __init__(self):
@@ -7,21 +8,18 @@ class SearchEngine():
         self.m_chess_type = None
         self.m_alphabeta_depth = None
         self.m_total_nodes = 0
+        self.nodos_podados = 0
         self.color_ia = None
         self.color_jugador = None
-        self.movimientos_ia = set()
-        self.movimientos_jugador = set()
 
-    def before_search(self, board, color_ia, alphabeta_depth, movimiento_jugador):
+    def before_search(self, board, color_ia, alphabeta_depth):
         self.m_board = [row[:] for row in board]
         self.m_alphabeta_depth = alphabeta_depth
         self.m_total_nodes = 0
         self.color_ia = color_ia
         self.color_jugador = Defines.BLACK if self.color_ia == Defines.WHITE else Defines.WHITE
-        self.movimientos_jugador.add(movimiento_jugador)
 
-
-    def alpha_beta_search(self, depth, alpha, beta, ourColor, bestMove, preMove):
+    def alpha_beta_search(self, depth, alpha, beta, ourColor, bestMove, preMove, movimientos):
     
         #Check game result
         if preMove and is_win_by_premove(self.m_board, preMove):
@@ -31,7 +29,6 @@ class SearchEngine():
             else:
                 #Self wins.
                 return Defines.MININT + 1
-        
         alpha = 0
         if(self.check_first_move()):
             bestMove.positions[0].x = 10
@@ -39,13 +36,13 @@ class SearchEngine():
             bestMove.positions[1].x = 10
             bestMove.positions[1].y = 10
         else:   
-            move = self.find_possible_move(self.m_alphabeta_depth)
-            self.movimientos_ia.add(move)
+            move = self.find_possible_move(self.m_alphabeta_depth, movimientos)
             bestMove.positions[0].x = move.positions[0].x
             bestMove.positions[0].y = move.positions[0].y
             bestMove.positions[1].x = move.positions[1].x
             bestMove.positions[1].y = move.positions[1].y
             make_move(self.m_board,bestMove,ourColor)
+            print(f"movimiento final: {bestMove.positions[0].x}, {bestMove.positions[0].y} y {bestMove.positions[1].x}, {bestMove.positions[1].y}")
             '''Check game result
             if (is_win_by_premove(self.m_board, bestMove)):
                 #Self wins.
@@ -100,43 +97,71 @@ class SearchEngine():
                 candidatos = random.sample(candidatos, max_candidatos)
             
             return candidatos"""
-    
-    """def buscar_candidatos(self):
+
+    def buscar_candidatos(self, maximizando, movimientos):
         candidatos_bloqueo = set()
         candidatos_cadena = set()
+        candidatos = set()
         direcciones = [(1, 0), (0, 1), (1, 1), (1, -1)]
         mejor_movimiento = StoneMove()
         mejor_movimiento.score = Defines.MININT
+        max_candidatos = 10
 
-        for move in self.movimientos_ia:
-            for pos in move.positions:
-                for dx, dy in direcciones:
-                    nueva_fila = pos.x + dx
-                    nueva_col = pos.y + dy
-                    if (0 <= nueva_fila < Defines.GRID_NUM) and (0 <= nueva_col < Defines.GRID_NUM):
-                        if self.m_board[nueva_fila][nueva_col] == Defines.NOSTONE:
-                            movimiento = StonePosition(nueva_fila, nueva_col)
+        movimientos_ia = set()
+        movimientos_jugador = set()
+
+        for move, jugador in movimientos.items():
+            if jugador == 1:
+                movimientos_ia.add(move)
+            else:
+                movimientos_jugador.add(move)
+        
+
+        for move, jugador in movimientos.items():
+            for dx, dy in direcciones:
+                nueva_fila = move.x + dx
+                nueva_col = move.y + dy
+                nueva_fila_n = move.x + dx * -1
+                nueva_col_n = move.y + dy * -1
+                if isValidPos(nueva_fila, nueva_col):
+                    if self.m_board[nueva_fila][nueva_col] == Defines.NOSTONE:
+                        movimiento = StonePosition(nueva_fila, nueva_col)
+                        if jugador == 1:
                             candidatos_cadena.add((movimiento))
-
-        for move in self.movimientos_jugador:
-            for pos in move.positions:
-                for dx, dy in direcciones:
-                    nueva_fila = pos.x + dx
-                    nueva_col = pos.y + dy
-                    if (0 <= nueva_fila < Defines.GRID_NUM) and (0 <= nueva_col < Defines.GRID_NUM):
-                        if self.m_board[nueva_fila][nueva_col] == Defines.NOSTONE:
-                            movimiento = StonePosition(nueva_fila, nueva_col)
+                        else:
+                            candidatos_bloqueo.add((movimiento))
+                if isValidPos(nueva_fila, nueva_col):
+                    if self.m_board[nueva_fila_n][nueva_col_n] == Defines.NOSTONE:
+                        movimiento = StonePosition(nueva_fila_n, nueva_col_n)
+                        if jugador == 1:
+                            candidatos_cadena.add((movimiento))
+                        else:
                             candidatos_bloqueo.add((movimiento))
 
         for movimiento_cadena in candidatos_cadena:
             for movimiento_bloqueo in candidatos_bloqueo:
                 movimiento = StoneMove()
                 movimiento.positions = [movimiento_cadena, movimiento_bloqueo]
-                movimiento.score = evaluar_movimiento()
-                if movimiento.score > mejor_movimiento.score:
-                    mejor_movimiento = movimiento
+                if maximizando:
+                    movimiento.score = evaluar_movimiento(movimiento, movimientos_ia, movimientos_jugador)
+                else:
+                    movimiento.score = evaluar_movimiento(movimiento, movimientos_jugador, movimientos_ia)
+                candidatos.add(movimiento)
 
-        return movimiento"""
+        if len(candidatos) > max_candidatos:
+            candidatos = sorted(candidatos, key=lambda movimiento: movimiento.score, reverse=True)[:max_candidatos]
+
+        while len(candidatos) <= 0:
+            movimiento = StoneMove()
+            movimiento.positions[0].x = 6
+            movimiento.positions[0].y = 6
+            movimiento.positions[1].x = 5
+            movimiento.positions[1].y = 5
+            movimiento.score = evaluar_movimiento(movimiento, movimientos_ia, movimientos_jugador)
+            if movimiento.positions[0].x != movimiento.positions[1].x  and movimiento.positions[0].y != movimiento.positions[1].y:
+                if self.m_board[movimiento.positions[0].x][movimiento.positions[0].y] == Defines.NOSTONE and self.m_board[movimiento.positions[0].x][movimiento.positions[0].y] == Defines.NOSTONE:
+                    candidatos.add(movimiento)
+        return candidatos
 
     """def buscar_candidatos(self, board):
         candidatos = set()
@@ -198,7 +223,8 @@ class SearchEngine():
 
         return puntuacion"""
     
-    def min_max(self, depth, alpha, beta, maximizando):
+    def min_max(self, depth, alpha, beta, maximizando, movimientos):
+        self.m_total_nodes += 1
         victoria = ver_victoria(self.m_board)
         if not victoria:
             empate = ver_empate(self.m_board)
@@ -213,40 +239,38 @@ class SearchEngine():
                 return 0
             return evaluar(self.m_board, self.color_ia, self.color_jugador)
         mejor_puntuacion = Defines.MININT if maximizando else Defines.MAXINT
-        movimientos = self.buscar_candidatos()
+        candidatos = self.buscar_candidatos(maximizando, movimientos)
 
-        for i, movimiento1 in enumerate(movimientos):
-            for j, movimiento2 in enumerate(movimientos):
-                if i == j:
-                    continue  # No permitimos poner dos fichas en la misma posición
-                
-                movimiento = StoneMove()
-                movimiento.positions[0] = movimiento1
-                movimiento.positions[1] = movimiento2
-                make_move(self.m_board, movimiento, self.color_ia if maximizando else self.color_jugador)
-                if maximizando:
-                    self.movimientos_ia.add(movimiento)
-                else:
-                    self.movimientos_jugador.add(movimiento)
-                movimiento.score = self.min_max(depth - 1, alpha, beta, not maximizando)
-                unmake_move(self.m_board, movimiento)
-                if maximizando:
-                    self.movimientos_ia.remove(movimiento)
-                else:
-                    self.movimientos_jugador.remove(movimiento)
-                #print(f"Puntuación: {puntuacion}")
-                #print("------------------------------------------------------------------")
+        for movimiento in candidatos:
+            make_move(self.m_board, movimiento, self.color_ia if maximizando else self.color_jugador)
+            if maximizando:
+                movimientos[movimiento.positions[0]] = 1
+                movimientos[movimiento.positions[1]] = 1
+            else:
+                movimientos[movimiento.positions[0]] = -1
+                movimientos[movimiento.positions[1]] = -1
+                #self.print_jugador()
+            puntuacion = self.min_max(depth - 1, alpha, beta, not maximizando, movimientos)
+            movimiento.score = combinar_evaluaciones(puntuacion, movimiento.score)
+            unmake_move(self.m_board, movimiento)
+            del movimientos[movimiento.positions[0]]
+            del movimientos[movimiento.positions[1]]
 
-                if maximizando:
-                    mejor_puntuacion = max(mejor_puntuacion, movimiento.score)
-                    alpha = max(alpha, movimiento.score)
-                    if beta <= alpha:
-                        break
-                else:
-                    mejor_puntuacion = min(mejor_puntuacion, movimiento.score)
-                    beta = min(beta, movimiento.score)
-                    if beta <= alpha:
-                        break
+            #print(f"Puntuación: {puntuacion}")
+            #print("------------------------------------------------------------------")
+
+            if maximizando:
+                mejor_puntuacion = max(mejor_puntuacion, movimiento.score)
+                alpha = max(alpha, movimiento.score)
+                if beta <= alpha:
+                    self.nodos_podados += 1
+                    break
+            else:
+                mejor_puntuacion = min(mejor_puntuacion, movimiento.score)
+                beta = min(beta, movimiento.score)
+                if beta <= alpha:
+                    self.nodos_podados += 1
+                    break
 
         return mejor_puntuacion
 
@@ -325,7 +349,34 @@ class SearchEngine():
 
         return mejor_movimiento"""
     
-    def find_possible_move(self, depth):
+    def find_possible_move(self, depth, movimientos):
+        mejor_movimiento = StoneMove()
+        alpha = Defines.MININT
+        beta = Defines.MAXINT
+        self.m_total_nodes = 0
+        self.nodos_podados = 0
+
+        candidatos = self.buscar_candidatos(True, movimientos)
+        for movimiento in candidatos:
+
+            if is_win_by_premove(self.m_board, movimiento):
+                mejor_movimiento = movimiento
+                mejor_movimiento.score = Defines.MAXINT
+                return mejor_movimiento
+            
+            make_move(self.m_board, movimiento, self.color_ia)
+            movimiento.score = self.min_max(depth - 1, alpha, beta, False, movimientos)  # El oponente tratará de minimizar
+            if movimiento.score > mejor_movimiento.score:
+                mejor_movimiento = movimiento
+            alpha = max(alpha, movimiento.score)  # Actualizar alpha aquí también
+
+            unmake_move(self.m_board, movimiento)
+            if beta <= alpha:
+                break
+
+        return mejor_movimiento
+    
+    """def find_possible_move(self, depth):
         mejor_movimiento = StoneMove()
         alpha = Defines.MININT
         beta = Defines.MAXINT
@@ -358,7 +409,7 @@ class SearchEngine():
             if beta <= alpha:
                 break
 
-        return mejor_movimiento
+        return mejor_movimiento"""
     
     """def simular_movimiento(self, board, movimiento, color):
         fila, col = movimiento
@@ -371,9 +422,14 @@ class SearchEngine():
         tablero_aux[movimiento1.x][movimiento1.y] = color  # Realizamos el movimiento en la copia
         tablero_aux[movimiento2.x][movimiento2.y] = color
         return tablero_aux"""
-    
-    def empieza_ia(self, move):
-        self.movimientos_ia.add(move)
+
+    def print_jugador(self, movimientos):
+        for movimiento in movimientos:
+                print(f"{movimiento.positions[0].x}, {movimiento.positions[0].y} y {movimiento.positions[1].x}, {movimiento.positions[1].y}")
+
+    def print_ia(self, movimientos):
+        for movimiento in movimientos:
+                print(f"{movimiento.positions[0].x}, {movimiento.positions[0].y} y {movimiento.positions[1].x}, {movimiento.positions[1].y}")
 
 def flush_output():
     import sys

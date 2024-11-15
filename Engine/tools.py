@@ -402,7 +402,8 @@ def evaluar(board, color_ia, color_jugador):
 
             for dx, dy in [(1, 0), (0, 1), (1, 1), (1, -1)]:
                 count_fichas = 0
-                count_vacio = 0
+                count_vacio_ia = 0
+                count_vacio_jugador = 0
                 count_bloqueo = 0
                 consecutivas_ia = 0
                 consecutivas_jugador = 0
@@ -419,8 +420,12 @@ def evaluar(board, color_ia, color_jugador):
                             count_bloqueo -= 1
                             consecutivas_jugador += 1
                         if board[nueva_fila][nueva_col] == Defines.NOSTONE:
-                            count_vacio += 1    
-                        
+                            if isValidPos(nueva_fila + (i - 1), nueva_col + (i - 1)) and isValidPos(nueva_fila + (i + 1), nueva_col + (i + 1)):
+                                if board[nueva_fila + (i - 1) * dx][nueva_col + (i - 1) * dx] == color_ia and board[nueva_fila + (i + 1) * dx][nueva_col + (i + 1) * dx] == color_ia:
+                                    count_vacio_ia += 1
+                                if board[nueva_fila + (i - 1) * dx][nueva_col + (i - 1) * dx] == color_jugador and board[nueva_fila + (i + 1) * dx][nueva_col + (i + 1) * dx] == color_jugador:
+                                    count_vacio_jugador += 1 
+                            
                 puntuacion += ((2 ** (consecutivas_ia - 1)) - (2 ** (consecutivas_jugador - 1))) * 10
                 if count_bloqueo == 5:
                     if board[nueva_fila][nueva_col] == color_ia:
@@ -434,5 +439,133 @@ def evaluar(board, color_ia, color_jugador):
                         puntuacion -= 50
 
                 if count_fichas > 0:
-                    puntuacion += (count_vacio * 10) if count_vacio > 0 else -10
+                    puntuacion += (count_vacio_ia * 10) - (count_vacio_jugador * 10) 
     return puntuacion
+
+def evaluar_movimiento(movimiento, movimientos_ia, movimientos_jugador):
+    puntuacion = 0
+    # 1. Evalúa si el movimiento bloquea una cadena del oponente
+    """for pos in movimiento.positions:
+        if es_bloqueo(pos, movimientos_jugador):
+            puntuacion += 100
+
+    # 2. Evalúa si el movimiento fortalece la cadena de la IA
+    for pos in movimiento.positions:
+        if extiende_cadena_propia(pos, movimientos_ia):
+            puntuacion += 100
+
+    # 3. Agrega puntos basados en la proximidad al centro del tablero
+    centro_x, centro_y = Defines.GRID_NUM // 2, Defines.GRID_NUM // 2
+    for pos in movimiento.positions:
+        distancia_al_centro = abs(pos.x - centro_x) + abs(pos.y - centro_y)
+        puntuacion += 10 / (distancia_al_centro + 1)
+
+    # 4. Puntaje especial si completa una cadena ganadora
+    if completa_cadena_ganadora(movimiento, movimientos_ia):
+        return Defines.MAXINT  # Puntaje máximo, movimiento ganador"""
+
+    return 1
+
+"""def es_bloqueo(pos, movimientos_jugador):
+    # Define las direcciones para verificar cadenas (horizontal, vertical, diagonales)
+    direcciones = [(1, 0), (0, 1), (1, 1), (1, -1)]
+    longitud_cadena = 6  # Se requiere bloquear una cadena de al menos 6 en raya
+
+    # Revisa cada dirección para ver si al colocar una ficha se bloquea una cadena del oponente
+    for dx, dy in direcciones:
+        conteo = 1  # Contar la posición actual como parte de la cadena del jugador
+
+        # Recorre hacia adelante en la dirección
+        x, y = pos.x + dx, pos.y + dy
+        while isValidPos(x, y) and (StonePosition(x, y)  in movimientos_jugador):
+            conteo += 1
+            x += dx
+            y += dy
+
+        # Recorre hacia atrás en la dirección opuesta
+        x, y = pos.x - dx, pos.y - dy
+        while isValidPos(x, y) and (StonePosition(x, y)  in movimientos_jugador):
+            conteo += 1
+            x -= dx
+            y -= dy
+
+        # Si se encuentra una cadena del jugador de longitud igual o mayor a 5
+        # significa que `pos` sería un buen lugar para bloquearla
+        if conteo >= longitud_cadena:
+            return True
+
+    # Si ninguna cadena del jugador alcanza la longitud requerida para bloquear
+    return False
+
+def extiende_cadena_propia(pos, movimientos_ia):
+    # Define las direcciones para verificar cadenas (horizontal, vertical, diagonales)
+    direcciones = [(1, 0), (0, 1), (1, 1), (1, -1)]
+    longitud_cadena = 6  # Se requiere bloquear una cadena de al menos 6 en raya
+
+    # Revisa cada dirección para ver si al colocar una ficha se bloquea una cadena del oponente
+    for dx, dy in direcciones:
+        conteo = 1  # Contar la posición actual como parte de la cadena del jugador
+
+        # Recorre hacia adelante en la dirección
+        x, y = pos.x + dx, pos.y + dy
+        while isValidPos(x, y) and (StonePosition(x, y) in movimientos_ia):
+            conteo += 1
+            x += dx
+            y += dy
+
+        # Recorre hacia atrás en la dirección opuesta
+        x, y = pos.x - dx, pos.y - dy
+        while isValidPos(x, y) and (StonePosition(x, y) in movimientos_ia):
+            conteo += 1
+            x -= dx
+            y -= dy
+
+        # Si se encuentra una cadena del jugador de longitud igual o mayor a 5
+        # significa que `pos` sería un buen lugar para bloquearla
+        if conteo >= longitud_cadena:
+            return True
+
+    # Si ninguna cadena del jugador alcanza la longitud requerida para bloquear
+    return False
+
+
+def completa_cadena_ganadora(movimiento, movimientos_ia):
+    # Define las direcciones para verificar cadenas (horizontal, vertical, diagonales)
+    direcciones = [(1, 0), (0, 1), (1, 1), (1, -1)]
+    longitud_cadena = 6  # Para ganar se necesita una cadena de 6 en raya
+
+    # Convierte movimientos_ia en un conjunto de posiciones individuales
+
+    # Agrega las posiciones del movimiento actual al conjunto de posiciones de la IA
+    movimientos_ia.update(movimiento.positions)
+
+    # Revisa cada posición en el movimiento para ver si completa una cadena de 6
+    for pos in movimiento.positions:
+        for dx, dy in direcciones:
+            conteo = 1  # Contar la posición actual como parte de la cadena
+
+            # Recorre hacia adelante en la dirección
+            x, y = pos.x + dx, pos.y + dy
+            while StonePosition(x, y) in movimientos_ia:
+                conteo += 1
+                x += dx
+                y += dy
+
+            # Recorre hacia atrás en la dirección opuesta
+            x, y = pos.x - dx, pos.y - dy
+            while StonePosition(x, y) in movimientos_ia:
+                conteo += 1
+                x -= dx
+                y -= dy
+
+            # Si se encuentra una cadena de longitud igual o mayor a 6, retorna True
+            if conteo >= longitud_cadena:
+                return True
+
+    # Si ninguna dirección alcanza una cadena de 6, retorna False
+    return False"""
+
+def combinar_evaluaciones(puntuacion_minimax, movimiento_score):
+    ponderacion_minimax = 0.7
+    ponderacion_movimiento = 0.3
+    return (ponderacion_minimax * puntuacion_minimax) + (ponderacion_movimiento * movimiento_score)

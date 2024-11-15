@@ -195,3 +195,269 @@
 [Mon Nov 11 12:24:09 202] - move AABB
 [Mon Nov 11 12:24:59 202] - move CCDD
 [Mon Nov 11 12:53:05 202] - exit
+[Mon Nov 11 13:13:57 202] - new black
+[Mon Nov 11 13:13:59 202] - move AABB
+[Mon Nov 11 13:14:30 202] - new black
+[Mon Nov 11 13:14:32 202] - move AABB
+[Mon Nov 11 13:14:59 202] - new black
+[Mon Nov 11 13:15:01 202] - move AABB
+[Mon Nov 11 13:15:25 202] - new black
+[Mon Nov 11 13:15:27 202] - move AABB
+[Mon Nov 11 18:56:42 202] - new black
+[Mon Nov 11 18:56:46 202] - move AABB
+[Mon Nov 11 19:01:32 202] - new black
+[Mon Nov 11 19:01:34 202] - move AABB
+[Mon Nov 11 19:01:53 202] - new black
+[Mon Nov 11 19:01:56 202] - move AABB
+[Mon Nov 11 19:06:16 202] - new black
+[Mon Nov 11 19:06:18 202] - move AABB
+[Mon Nov 11 19:10:32 202] - new black
+[Mon Nov 11 19:10:33 202] - move AABB
+[Mon Nov 11 19:10:43 202] - move CCDD
+[Mon Nov 11 19:11:05 202] - exit
+[Mon Nov 11 19:11:09 202] - new black
+[Mon Nov 11 19:11:10 202] - move AABB
+[Mon Nov 11 19:11:15 202] - new black
+[Mon Nov 11 19:11:17 202] - move AABB
+[Mon Nov 11 19:11:32 202] - new black
+[Mon Nov 11 19:11:33 202] - move AABB
+[Mon Nov 11 19:11:42 202] - new black
+[Mon Nov 11 19:11:44 202] - move AABB
+[Mon Nov 11 19:11:54 202] - exit
+[Mon Nov 11 19:11:57 202] - new black
+[Mon Nov 11 19:12:00 202] - move AABB
+[Mon Nov 11 19:12:12 202] - move CCDD
+[Mon Nov 11 19:12:17 202] - exit
+[Mon Nov 11 19:19:32 202] - new black
+[Mon Nov 11 19:19:34 202] - move AABB
+[Mon Nov 11 19:20:08 202] - exit
+[Mon Nov 11 19:20:12 202] - new black
+[Mon Nov 11 19:20:14 202] - move AABB
+[Mon Nov 11 19:45:57 202] - exit
+[Mon Nov 11 19:46:01 202] - new black
+[Mon Nov 11 19:46:03 202] - move AABB
+[Mon Nov 11 19:46:22 202] - move CCDD
+[Mon Nov 11 19:46:27 202] - move ABAC
+[Mon Nov 11 19:46:37 202] - move BACA
+[Mon Nov 11 19:46:46 202] - move SRRS
+[Mon Nov 11 19:46:53 202] - exit
+[Mon Nov 11 19:49:31 202] - new black
+[Mon Nov 11 19:49:33 202] - move AABB
+[Mon Nov 11 19:50:12 202] - exit
+[Mon Nov 11 19:50:20 202] - new black
+[Mon Nov 11 19:50:23 202] - move AABB
+[Mon Nov 11 19:50:29 202] - exit
+[Mon Nov 11 19:54:04 202] - new black
+[Mon Nov 11 19:54:06 202] - move AABB
+[Mon Nov 11 19:54:11 202] - move CCDD
+[Mon Nov 11 19:54:17 202] - move EEAB
+[Mon Nov 11 19:54:29 202] - move ACAD
+[Mon Nov 11 19:54:40 202] - move AEBA
+[Mon Nov 11 19:54:47 202] - move BCBD
+[Mon Nov 11 19:54:57 202] - move BECA
+[Mon Nov 11 19:55:06 202] - move DAEA
+[Mon Nov 11 19:55:17 202] - move DBDC
+[Mon Nov 11 19:55:25 202] - exit
+[Mon Nov 11 20:00:51 202] - new black
+[Mon Nov 11 20:00:53 202] - move AABB
+[Mon Nov 11 20:00:59 202] - move CCDD
+[Mon Nov 11 20:01:04 202] - exit
+[Mon Nov 11 20:03:31 202] - new white
+[Mon Nov 11 20:03:36 202] - move AABB
+[Mon Nov 11 20:05:50 202] - new white
+[Mon Nov 11 20:05:52 202] - move AABB
+[Mon Nov 11 20:22:11 202] - new white
+[Mon Nov 11 20:22:14 202] - move AABB
+[Mon Nov 11 20:22:45 202] - new white
+[Mon Nov 11 20:22:50 202] - move JJ
+[Mon Nov 11 20:23:03 202] - new white
+[Mon Nov 11 20:23:05 202] - move JJ
+[Mon Nov 11 20:23:17 202] - move AABB
+[Tue Nov 12 12:34:32 202] - new black
+[Tue Nov 12 12:34:35 202] - move AABB
+[Tue Nov 12 12:36:36 202] - new black
+[Tue Nov 12 12:36:38 202] - move AABB
+[Tue Nov 12 12:37:11 202] - new black
+[Tue Nov 12 12:37:12 202] - move AABB
+[Tue Nov 12 12:43:52 202] - exit
+[Tue Nov 12 12:43:58 202] - new black
+[Tue Nov 12 12:43:59 202] - move AABB
+[Tue Nov 12 12:44:08 202] - new black
+[Tue Nov 12 12:44:10 202] - move AABB
+[Tue Nov 12 12:44:16 202] - new black
+[Tue Nov 12 12:44:18 202] - move AABB
+[Tue Nov 12 12:46:21 202] - exit
+[Tue Nov 12 12:46:27 202] - new black
+[Tue Nov 12 12:46:29 202] - move AABB
+[Tue Nov 12 12:46:35 202] - new black
+[Tue Nov 12 12:46:37 202] - move AABB
+[Tue Nov 12 12:46:43 202] - new black
+[Tue Nov 12 12:46:44 202] - move AABB
+[Tue Nov 12 12:52:37 202] - move CCDD
+[Tue Nov 12 12:52:45 202] - move ABAC
+[Tue Nov 12 12:52:49 202] - exit
+[Tue Nov 12 12:53:06 202] - new black
+[Tue Nov 12 12:53:08 202] - move AABB
+[Tue Nov 12 12:53:15 202] - exit
+[Tue Nov 12 12:53:23 202] - new black
+[Tue Nov 12 12:53:25 202] - move AABB
+[Tue Nov 12 12:53:29 202] - exit
+[Tue Nov 12 12:53:36 202] - new black
+[Tue Nov 12 12:53:37 202] - move AABB
+[Tue Nov 12 12:53:42 202] - exit
+[Tue Nov 12 12:55:41 202] - new black
+[Tue Nov 12 12:55:43 202] - move AABB
+[Tue Nov 12 12:55:47 202] - move CCDD
+[Tue Nov 12 12:55:55 202] - move ABAC
+[Tue Nov 12 13:00:56 202] - exit
+[Tue Nov 12 13:35:34 202] - new black
+[Tue Nov 12 13:35:36 202] - move AABB
+[Tue Nov 12 13:35:49 202] - move ABBC
+[Tue Nov 12 13:36:05 202] - move ACBD
+[Tue Nov 12 13:36:27 202] - new black
+[Tue Nov 12 13:36:29 202] - move AABB
+[Tue Nov 12 13:36:38 202] - move FEFF
+[Tue Nov 12 13:36:46 202] - exit
+[Wed Nov 13 10:19:54 202] - new black
+[Wed Nov 13 10:19:56 202] - move AABB
+[Wed Nov 13 10:20:10 202] - move CCDD
+[Wed Nov 13 10:21:37 202] - exit
+[Wed Nov 13 10:21:40 202] - new black
+[Wed Nov 13 10:21:42 202] - move AABB
+[Wed Nov 13 10:24:05 202] - exit
+[Wed Nov 13 10:24:07 202] - new black
+[Wed Nov 13 10:24:11 202] - move AABB
+[Wed Nov 13 10:25:13 202] - move ABAC
+[Wed Nov 13 10:33:08 202] - exit
+[Wed Nov 13 10:33:11 202] - new black
+[Wed Nov 13 10:33:13 202] - move AABB
+[Wed Nov 13 10:37:08 202] - exit
+[Wed Nov 13 10:37:19 202] - new black
+[Wed Nov 13 10:37:21 202] - move AABB
+[Wed Nov 13 10:39:18 202] - exit
+[Wed Nov 13 10:39:25 202] - new black
+[Wed Nov 13 10:39:38 202] - print
+[Wed Nov 13 10:39:41 202] - exit
+[Wed Nov 13 10:39:56 202] - new black
+[Wed Nov 13 10:39:57 202] - print
+[Wed Nov 13 10:40:01 202] - jugador
+[Wed Nov 13 10:40:05 202] - move AABB
+[Wed Nov 13 10:40:09 202] - jugador
+[Wed Nov 13 10:41:01 202] - exit
+[Wed Nov 13 10:41:10 202] - new black
+[Wed Nov 13 10:41:12 202] - ia
+[Wed Nov 13 10:41:16 202] - jugador
+[Wed Nov 13 10:41:18 202] - move AABB
+[Wed Nov 13 10:41:21 202] - ia
+[Wed Nov 13 10:41:24 202] - jugador
+[Wed Nov 13 10:42:08 202] - exit
+[Wed Nov 13 10:42:11 202] - new black
+[Wed Nov 13 10:42:13 202] - move AABB
+[Wed Nov 13 10:42:19 202] - jugador
+[Wed Nov 13 10:42:28 202] - exit
+[Wed Nov 13 10:43:30 202] - new black
+[Wed Nov 13 10:43:33 202] - move AABB
+[Wed Nov 13 10:43:35 202] - move CCDD
+[Wed Nov 13 10:43:38 202] - ia
+[Wed Nov 13 10:48:09 202] - exit
+[Wed Nov 13 10:48:12 202] - new black
+[Wed Nov 13 10:48:14 202] - move AABB
+[Wed Nov 13 10:49:05 202] - exit
+[Wed Nov 13 10:49:08 202] - new black
+[Wed Nov 13 10:49:09 202] - move AABB
+[Wed Nov 13 10:49:45 202] - exit
+[Wed Nov 13 10:49:48 202] - new black
+[Wed Nov 13 10:49:51 202] - move AABB
+[Wed Nov 13 10:50:24 202] - exit
+[Wed Nov 13 10:50:26 202] - new black
+[Wed Nov 13 10:50:28 202] - move AABB
+[Wed Nov 13 11:00:04 202] - exit
+[Wed Nov 13 11:00:07 202] - new black
+[Wed Nov 13 11:00:09 202] - move AABB
+[Wed Nov 13 11:00:29 202] - new black
+[Wed Nov 13 11:00:32 202] - move AABB
+[Wed Nov 13 11:01:09 202] - exit
+[Wed Nov 13 11:01:11 202] - new black
+[Wed Nov 13 11:01:13 202] - move AABB
+[Wed Nov 13 11:01:42 202] - exit
+[Wed Nov 13 11:01:44 202] - new black
+[Wed Nov 13 11:01:46 202] - move AABB
+[Wed Nov 13 11:05:52 202] - exit
+[Wed Nov 13 11:05:55 202] - new black
+[Wed Nov 13 11:05:57 202] - move AABB
+[Wed Nov 13 11:08:21 202] - jugador
+[Wed Nov 13 11:08:46 202] - exit
+[Wed Nov 13 11:08:49 202] - new black
+[Wed Nov 13 11:08:51 202] - move AABB
+[Wed Nov 13 11:28:16 202] - exit
+[Wed Nov 13 11:28:19 202] - new black
+[Wed Nov 13 11:28:21 202] - move AABB
+[Wed Nov 13 11:28:38 202] - exit
+[Wed Nov 13 11:28:41 202] - new black
+[Wed Nov 13 11:28:44 202] - move AABB
+[Wed Nov 13 11:28:47 202] - exit
+[Wed Nov 13 11:28:59 202] - new black
+[Wed Nov 13 11:29:01 202] - move AABB
+[Wed Nov 13 11:29:25 202] - move AABB
+[Wed Nov 13 11:29:32 202] - exit
+[Wed Nov 13 11:29:37 202] - new black
+[Wed Nov 13 11:29:39 202] - move AABB
+[Wed Nov 13 11:30:00 202] - exit
+[Wed Nov 13 11:30:02 202] - new black
+[Wed Nov 13 11:30:05 202] - move AABB
+[Wed Nov 13 11:30:23 202] - exiy
+[Wed Nov 13 11:30:27 202] - exit
+[Wed Nov 13 11:30:29 202] - new black
+[Wed Nov 13 11:30:31 202] - move AABB
+[Wed Nov 13 11:32:12 202] - exit
+[Wed Nov 13 11:32:15 202] - new black
+[Wed Nov 13 11:32:18 202] - move AABB
+[Wed Nov 13 11:32:24 202] - exit
+[Wed Nov 13 11:34:13 202] - new black
+[Wed Nov 13 11:34:14 202] - move AABB
+[Wed Nov 13 11:34:23 202] - move ABAC
+[Wed Nov 13 11:35:29 202] - move ADAE
+[Wed Nov 13 11:35:36 202] - exit
+[Wed Nov 13 12:11:34 202] - new black
+[Wed Nov 13 12:11:42 202] - white AABB
+[Wed Nov 13 12:11:46 202] - print
+[Wed Nov 13 12:11:51 202] - next
+[Wed Nov 13 12:11:54 202] - print
+[Wed Nov 13 12:11:59 202] - white ABAC
+[Wed Nov 13 12:12:03 202] - print
+[Wed Nov 13 12:12:32 202] - jugador
+[Wed Nov 13 12:12:51 202] - next
+[Wed Nov 13 12:12:56 202] - print
+[Wed Nov 13 12:13:14 202] - exit
+[Thu Nov 14 17:54:43 202] - new black
+[Thu Nov 14 17:54:45 202] - move AABB
+[Thu Nov 14 17:55:08 202] - move ABBC
+[Thu Nov 14 17:55:17 202] - move ACAD
+[Thu Nov 14 17:55:30 202] - move BACA
+[Thu Nov 14 17:55:40 202] - move ADAE
+[Thu Nov 14 17:55:48 202] - move DAEA
+[Thu Nov 14 17:55:58 202] - exit
+[Fri Nov 15 10:14:58 202] - new black
+[Fri Nov 15 10:16:37 202] - new black
+[Fri Nov 15 10:17:13 202] - new black
+[Fri Nov 15 10:17:15 202] - move AABB
+[Fri Nov 15 12:16:50 202] - new black
+[Fri Nov 15 12:16:52 202] - move AABB
+[Fri Nov 15 12:18:40 202] - new black
+[Fri Nov 15 12:18:41 202] - move AABB
+[Fri Nov 15 12:18:57 202] - new black
+[Fri Nov 15 12:18:59 202] - move AABB
+[Fri Nov 15 12:19:33 202] - new black
+[Fri Nov 15 12:19:35 202] - move AABB
+[Fri Nov 15 12:21:46 202] - new black
+[Fri Nov 15 12:21:48 202] - move AABB
+[Fri Nov 15 12:24:09 202] - new black
+[Fri Nov 15 12:24:11 202] - move AABB
+[Fri Nov 15 12:25:15 202] - new black
+[Fri Nov 15 12:25:17 202] - move AABB
+[Fri Nov 15 12:25:51 202] - new black
+[Fri Nov 15 12:25:53 202] - move AABB
+[Fri Nov 15 12:26:15 202] - new black
+[Fri Nov 15 12:26:16 202] - move AABB
+[Fri Nov 15 12:26:23 202] - move ABAC
+[Fri Nov 15 12:26:30 202] - exit
