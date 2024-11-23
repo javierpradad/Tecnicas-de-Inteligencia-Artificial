@@ -117,7 +117,7 @@
  [],
  False,
  False,
- 1731678007,
+ 1732388003,
  [('run.exe',
    'C:\\Users\\Javi '
    'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',

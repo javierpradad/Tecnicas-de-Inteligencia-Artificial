@@ -19,10 +19,38 @@ class StonePosition:
         self.x = x
         self.y = y
 
+    def __eq__(self, other):
+        # Equality comparison for StonePosition
+        return isinstance(other, StonePosition) and self.x == other.x and self.y == other.y
+
+    def __hash__(self):
+        # Hashing for StonePosition
+        return hash((self.x, self.y))
+
+    def __repr__(self):
+        # Representation for debugging
+        return f"StonePosition(x={self.x}, y={self.y})"
+
 class StoneMove:
     def __init__(self):
         self.positions = [StonePosition(0,0),StonePosition(0,0)]
         self.score = 0
+
+    def __eq__(self, other):
+        # Equality comparison for StoneMove
+        return (
+            isinstance(other, StoneMove)
+            and self.positions == other.positions
+            and self.score == other.score
+        )
+
+    def __hash__(self):
+        # Hashing for StoneMove
+        return hash((tuple(self.positions), self.score))
+
+    def __repr__(self):
+        # Representation for debugging
+        return f"StoneMove(positions={self.positions}, score={self.score})"
 
 # One point and its value.
 class Chess:

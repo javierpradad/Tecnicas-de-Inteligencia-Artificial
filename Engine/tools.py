@@ -1,5 +1,6 @@
 from defines import *
 import time
+import copy
 
 # Point (x, y) if in the valid position of the board.
 def isValidPos(x,y):
@@ -12,13 +13,21 @@ def init_board(board):
         for j in range(1, Defines.GRID_NUM - 1):
             board[i][j] = Defines.NOSTONE
             
-def make_move(board, move, color):
+def make_move(board, move, color, movimientos):
     board[move.positions[0].x][move.positions[0].y] = color
     board[move.positions[1].x][move.positions[1].y] = color
+    movimiento = copy.deepcopy(move)
+    movimientos[movimiento.positions[0]] = color
+    movimientos[movimiento.positions[1]] = color
+    
 
-def unmake_move(board, move):
+def unmake_move(board, move, movimientos):
     board[move.positions[0].x][move.positions[0].y] = Defines.NOSTONE
     board[move.positions[1].x][move.positions[1].y] = Defines.NOSTONE
+    if move.positions[0] in movimientos:
+        del movimientos[move.positions[0]]
+    if move.positions[1] in movimientos:
+        del movimientos[move.positions[1]]
 
 def is_win_by_premove(board, preMove):
     directions = [(1, 0), (0, 1), (1, 1), (1, -1)]
@@ -139,11 +148,9 @@ def ver_victoria(board):
             #print_board(board)
             for dx, dy in direcciones:
                 count = 1
-                longitud = contar_cadena(board, fila, col, dx, dy, color_actual) 
-                count += longitud
+                count += contar_cadena(board, fila, col, dx, dy, color_actual) 
                 #print(f"segundo count: {count}")
-                longitud = contar_cadena(board, fila, col, -dx, -dy, color_actual) 
-                count += longitud
+                count += contar_cadena(board, fila, col, -dx, -dy, color_actual) 
                 #print(f"tercer count: {count}")
                 #print("-----------------------------------------------------------------------")
                 if count >= 6:
@@ -160,7 +167,7 @@ def ver_empate(board):
             return False
     return True
 
-"""def contar_piedras(color, board, jugador):
+def contar_piedras(color, board):
     piedras = 0
     direcciones = [(1, 0), (0, 1), (1, 1), (1, -1)]
 
@@ -168,94 +175,14 @@ def ver_empate(board):
         for col in range(1, Defines.GRID_NUM - 1):
             if board[fila][col] == color:
                 for dx, dy in direcciones:
-                    longitud_cadena, es_cadena_viva = contar_cadena(board, fila, col, dx, dy, color)
-                    if es_cadena_viva:
+                    longitud_cadena = contar_cadena(board, fila, col, dx, dy, color)
+                    if longitud_cadena > 1:
                         piedras += 2 ** (longitud_cadena - 1)
-                    if longitud_cadena >= 4 and color == jugador and es_cadena_viva:
-                        piedras += 200
 
-    return piedras
-    """
-
-
-"""def contar_cadena(board, fila, col, dx, dy, color):
-    consecutivas_adelante = 0
-    consecutivas_atras = 0
-    n = len(board)
-
-    for i in range(1, 6):
-        nueva_fila = fila + i * dx
-        nueva_col = col + i * dy
-
-        if nueva_fila < 0 or nueva_fila >= n or nueva_col < 0 or nueva_col >= n:
-            break
-
-        #print(f"fila: {nueva_fila}     columna: {nueva_col}")
-        if board[nueva_fila][nueva_col] == color:
-            consecutivas_adelante += 1
-        else:
-            break
-
-    for i in range(1, 6):
-        nueva_fila = fila - i * dx
-        nueva_col = col - i * dy
-
-        if nueva_fila < 0 or nueva_fila >= n or nueva_col < 0 or nueva_col >= n:
-            break
-
-        if board[nueva_fila][nueva_col] == color:
-            consecutivas_atras += 1
-        else:
-            break
-        if consecutivas_atras >=4:
-            print(fila, col)
-
-
-    consecutivas = consecutivas_atras + consecutivas_adelante
-    if consecutivas > 3:
-        print("-----------")
-        print(consecutivas_adelante)
-        print(consecutivas_atras)
-        print(consecutivas)
-        print("-----------")
-    es_cadena_viva = False
-
-    # Chequear extremo positivo
-    extremo_positivo_libre = False
-    nueva_fila = fila + consecutivas * dx
-    nueva_col = col + consecutivas * dy
-    if 0 <= nueva_fila < n and 0 <= nueva_col < n and board[nueva_fila][nueva_col] == Defines.NOSTONE:
-        extremo_positivo_libre = True
-
-    # Chequear extremo negativo
-    extremo_negativo_libre = False
-    nueva_fila = fila - consecutivas * dx
-    nueva_col = col - consecutivas * dy
-    if 0 <= nueva_fila < n and 0 <= nueva_col < n and board[nueva_fila][nueva_col] == Defines.NOSTONE:
-        extremo_negativo_libre = True
-
-    # La cadena es "viva" si tiene al menos un extremo libre
-    es_cadena_viva = extremo_positivo_libre or extremo_negativo_libre
-
-    return consecutivas, es_cadena_viva"""
-
-def contar_piedras(color, board, jugador, movimientos_ia, movimientos_jugador):
-    piedras = 0
-    direcciones = [(1, 0), (0, 1), (1, 1), (1, -1)]
-
-    movimientos = movimientos_jugador if color == jugador  else movimientos_ia
-
-    for move in movimientos:
-        last_move = move.positions[1]
-        if board[last_move.x][last_move.y] == color:
-            for dx, dy in direcciones:
-                longitud_cadena = contar_cadena(board, last_move.x, last_move.y, dx, dy, color)
-                piedras += 2 ** (longitud_cadena - 1)
     return piedras
     
-
 def contar_cadena(board, fila, col, dx, dy, color):
-    consecutivas = 0
+    consecutivas = 1
     n = len(board)
 
     for i in range(1, 6):
@@ -274,298 +201,7 @@ def contar_cadena(board, fila, col, dx, dy, color):
     #print(f"piedras consecutivas: {consecutivas}")
     return consecutivas
 
-def calcular_posicion_fichas(board, color_ia, color_jugador, movimientos_ia, movimientos_jugador):
-    puntuacion = 0
-    movimientos = movimientos_ia | movimientos_jugador
-    centro = (Defines.GRID_NUM // 2, Defines.GRID_NUM // 2)
+def distancia_heuristica(pos, movimientos):
+    # Calcula la distancia heurística de una posición a todas las fichas en juego
+    return min(abs(pos[0] - move.x) + abs(pos[1] - move.y) for move in movimientos.keys())
 
-    for movimiento in movimientos:
-        for pos in movimiento.positions:
-            if board[pos.x][pos.y] == color_ia:
-                distancia_al_centro = abs(pos.x - centro[0]) + abs(pos.y - centro[1])
-                puntuacion += 10 - distancia_al_centro
-            if board[pos.x][pos.y] == color_jugador:
-                distancia_al_centro = abs(pos.x - centro[0]) + abs(pos.y - centro[1])
-                puntuacion -= 10 - distancia_al_centro
-    return puntuacion
-
-def evaluar_espacios_libres(board, color):
-    puntuacion = 0
-    for dx, dy in [(1, 0), (0, 1), (1, 1), (1, -1)]:
-        for fila in range(Defines.GRID_NUM):
-            for col in range(Defines.GRID_NUM):
-                count_fichas = 0
-                count_vacio = 0
-                for i in range(6):  # Alinear hasta 6 fichas
-                    nueva_fila = fila + i * dx
-                    nueva_col = col + i * dy
-                    if 0 <= nueva_fila < len(board) and 0 <= nueva_col < len(board[0]):
-                        if board[nueva_fila][nueva_col] == color:
-                            count_fichas += 1
-                        elif board[nueva_fila][nueva_col] == Defines.NOSTONE:
-                            count_vacio += 1
-                if count_fichas > 0 and count_vacio > 0:
-                    puntuacion += count_vacio * 10  # Mayor cantidad de espacios vacíos, más puntos
-                if count_fichas > 0 and count_vacio == 0:
-                    puntuacion -= 10  # Penalizar si el espacio está completamente bloqueado
-    return puntuacion
-
-def evaluar_bloqueo(board, color_ia, color_jugador, movimientos_ia, movimientos_jugador):
-    puntuacion = 0
-    movimientos = movimientos_ia | movimientos_jugador
-
-    for direccion in [(1, 0), (0, 1), (1, 1), (1, -1)]:
-        for movimiento in movimientos:
-            for pos in movimiento:
-                count = 0
-                for i in range(6):
-                    nueva_fila= pos.x + i * direccion[0]
-                    nueva_col = pos.y + i * direccion[1]
-                    if 0 <= nueva_fila < len(board) and 0 <= nueva_col < len(board[0]):
-                        if board[nueva_fila][nueva_col] == color_ia:
-                            count += 1
-                        if board[nueva_fila][nueva_col] == color_jugador:
-                            count -= 1
-                if count == 5:
-                    if board[nueva_fila][nueva_col] == color_ia:
-                        puntuacion += 100
-                    if board[nueva_fila][nueva_col] == color_jugador:
-                        puntuacion -= 100
-                elif count == 4:
-                    if board[nueva_fila][nueva_col] == color_ia:
-                        puntuacion += 50
-                    if board[nueva_fila][nueva_col] == color_jugador:
-                        puntuacion -= 50
-    return puntuacion
-
-"""def evaluar(board, color_ia, color_jugador):
-    puntuacion = 0
-    centro = (Defines.GRID_NUM // 2, Defines.GRID_NUM // 2)
-
-    for fila in range(Defines.GRID_NUM):
-        for col in range(Defines.GRID_NUM):
-            if board[fila][col] == color_ia:
-                distancia_al_centro = abs(fila - centro[0]) + abs(col - centro[1])
-                puntuacion += 10 - distancia_al_centro
-            if board[fila][col] == color_jugador:
-                distancia_al_centro = abs(fila - centro[0]) + abs(col - centro[1])
-                puntuacion -= 10 - distancia_al_centro
-            for dx, dy in [(1, 0), (0, 1), (1, 1), (1, -1)]:
-                count_fichas = 0
-                count_vacio = 0
-                count_bloqueo = 0
-                consecutivas_ia = 0
-                consecutivas_jugador = 0
-                for i in range(6):
-                    nueva_fila = fila + i * dx
-                    nueva_col = col + i * dy
-                    if 0 <= nueva_fila < len(board) and 0 <= nueva_col < len(board[0]):
-                        if board[nueva_fila][nueva_col] == color_ia:
-                            count_fichas += 1
-                            count_bloqueo += 1
-                            consecutivas_ia += 1
-                        if board[nueva_fila][nueva_col] == Defines.NOSTONE:
-                            count_vacio += 1    
-                        if board[nueva_fila][nueva_col] == color_jugador:
-                            count_bloqueo -= 1
-                            consecutivas_jugador += 1
-                puntuacion += 2 ** (consecutivas_ia - 1) * 10
-                puntuacion -= 2 ** (consecutivas_jugador - 1) * 10
-                if count_bloqueo == 5:
-                    if board[nueva_fila][nueva_col] == color_ia:
-                        puntuacion += 100
-                    if board[nueva_fila][nueva_col] == color_jugador:
-                        puntuacion -= 100
-                elif count_bloqueo == 4:
-                    if board[nueva_fila][nueva_col] == color_ia:
-                        puntuacion += 50
-                    if board[nueva_fila][nueva_col] == color_jugador:
-                        puntuacion -= 50
-                if count_fichas > 0 and count_vacio > 0:
-                    puntuacion += count_vacio * 10  # Mayor cantidad de espacios vacíos, más puntos
-                if count_fichas > 0 and count_vacio == 0:
-                    puntuacion -= 10  # Penalizar si el espacio está completamente bloqueado
-    return puntuacion"""
-
-def evaluar(board, color_ia, color_jugador):
-    puntuacion = 0
-    centro = (Defines.GRID_NUM // 2, Defines.GRID_NUM // 2)
-
-    for fila in range(Defines.GRID_NUM):
-        for col in range(Defines.GRID_NUM):
-            if board[fila][col] == color_ia:
-                distancia_al_centro = abs(fila - centro[0]) + abs(col - centro[1])
-                puntuacion += 10 - distancia_al_centro
-            if board[fila][col] == color_jugador:
-                distancia_al_centro = abs(fila - centro[0]) + abs(col - centro[1])
-                puntuacion -= 10 - distancia_al_centro
-
-            for dx, dy in [(1, 0), (0, 1), (1, 1), (1, -1)]:
-                count_fichas = 0
-                count_vacio_ia = 0
-                count_vacio_jugador = 0
-                count_bloqueo = 0
-                consecutivas_ia = 0
-                consecutivas_jugador = 0
-
-                for i in range(6):
-                    nueva_fila = fila + i * dx
-                    nueva_col = col + i * dy
-                    if  0 <= nueva_fila < Defines.GRID_NUM and 0 <= nueva_col < Defines.GRID_NUM:
-                        if board[nueva_fila][nueva_col] == color_ia:
-                            count_fichas += 1
-                            count_bloqueo += 1
-                            consecutivas_ia += 1
-                        if board[nueva_fila][nueva_col] == color_jugador:
-                            count_bloqueo -= 1
-                            consecutivas_jugador += 1
-                        if board[nueva_fila][nueva_col] == Defines.NOSTONE:
-                            if isValidPos(nueva_fila + (i - 1), nueva_col + (i - 1)) and isValidPos(nueva_fila + (i + 1), nueva_col + (i + 1)):
-                                if board[nueva_fila + (i - 1) * dx][nueva_col + (i - 1) * dx] == color_ia and board[nueva_fila + (i + 1) * dx][nueva_col + (i + 1) * dx] == color_ia:
-                                    count_vacio_ia += 1
-                                if board[nueva_fila + (i - 1) * dx][nueva_col + (i - 1) * dx] == color_jugador and board[nueva_fila + (i + 1) * dx][nueva_col + (i + 1) * dx] == color_jugador:
-                                    count_vacio_jugador += 1 
-                            
-                puntuacion += ((2 ** (consecutivas_ia - 1)) - (2 ** (consecutivas_jugador - 1))) * 10
-                if count_bloqueo == 5:
-                    if board[nueva_fila][nueva_col] == color_ia:
-                        puntuacion += 100
-                    if board[nueva_fila][nueva_col] == color_jugador:
-                        puntuacion -= 100
-                elif count_bloqueo == 4:
-                    if board[nueva_fila][nueva_col] == color_ia:
-                        puntuacion += 50
-                    if board[nueva_fila][nueva_col] == color_jugador:
-                        puntuacion -= 50
-
-                if count_fichas > 0:
-                    puntuacion += (count_vacio_ia * 10) - (count_vacio_jugador * 10) 
-    return puntuacion
-
-def evaluar_movimiento(movimiento, movimientos_ia, movimientos_jugador):
-    puntuacion = 0
-    # 1. Evalúa si el movimiento bloquea una cadena del oponente
-    """for pos in movimiento.positions:
-        if es_bloqueo(pos, movimientos_jugador):
-            puntuacion += 100
-
-    # 2. Evalúa si el movimiento fortalece la cadena de la IA
-    for pos in movimiento.positions:
-        if extiende_cadena_propia(pos, movimientos_ia):
-            puntuacion += 100
-
-    # 3. Agrega puntos basados en la proximidad al centro del tablero
-    centro_x, centro_y = Defines.GRID_NUM // 2, Defines.GRID_NUM // 2
-    for pos in movimiento.positions:
-        distancia_al_centro = abs(pos.x - centro_x) + abs(pos.y - centro_y)
-        puntuacion += 10 / (distancia_al_centro + 1)
-
-    # 4. Puntaje especial si completa una cadena ganadora
-    if completa_cadena_ganadora(movimiento, movimientos_ia):
-        return Defines.MAXINT  # Puntaje máximo, movimiento ganador"""
-
-    return 1
-
-"""def es_bloqueo(pos, movimientos_jugador):
-    # Define las direcciones para verificar cadenas (horizontal, vertical, diagonales)
-    direcciones = [(1, 0), (0, 1), (1, 1), (1, -1)]
-    longitud_cadena = 6  # Se requiere bloquear una cadena de al menos 6 en raya
-
-    # Revisa cada dirección para ver si al colocar una ficha se bloquea una cadena del oponente
-    for dx, dy in direcciones:
-        conteo = 1  # Contar la posición actual como parte de la cadena del jugador
-
-        # Recorre hacia adelante en la dirección
-        x, y = pos.x + dx, pos.y + dy
-        while isValidPos(x, y) and (StonePosition(x, y)  in movimientos_jugador):
-            conteo += 1
-            x += dx
-            y += dy
-
-        # Recorre hacia atrás en la dirección opuesta
-        x, y = pos.x - dx, pos.y - dy
-        while isValidPos(x, y) and (StonePosition(x, y)  in movimientos_jugador):
-            conteo += 1
-            x -= dx
-            y -= dy
-
-        # Si se encuentra una cadena del jugador de longitud igual o mayor a 5
-        # significa que `pos` sería un buen lugar para bloquearla
-        if conteo >= longitud_cadena:
-            return True
-
-    # Si ninguna cadena del jugador alcanza la longitud requerida para bloquear
-    return False
-
-def extiende_cadena_propia(pos, movimientos_ia):
-    # Define las direcciones para verificar cadenas (horizontal, vertical, diagonales)
-    direcciones = [(1, 0), (0, 1), (1, 1), (1, -1)]
-    longitud_cadena = 6  # Se requiere bloquear una cadena de al menos 6 en raya
-
-    # Revisa cada dirección para ver si al colocar una ficha se bloquea una cadena del oponente
-    for dx, dy in direcciones:
-        conteo = 1  # Contar la posición actual como parte de la cadena del jugador
-
-        # Recorre hacia adelante en la dirección
-        x, y = pos.x + dx, pos.y + dy
-        while isValidPos(x, y) and (StonePosition(x, y) in movimientos_ia):
-            conteo += 1
-            x += dx
-            y += dy
-
-        # Recorre hacia atrás en la dirección opuesta
-        x, y = pos.x - dx, pos.y - dy
-        while isValidPos(x, y) and (StonePosition(x, y) in movimientos_ia):
-            conteo += 1
-            x -= dx
-            y -= dy
-
-        # Si se encuentra una cadena del jugador de longitud igual o mayor a 5
-        # significa que `pos` sería un buen lugar para bloquearla
-        if conteo >= longitud_cadena:
-            return True
-
-    # Si ninguna cadena del jugador alcanza la longitud requerida para bloquear
-    return False
-
-
-def completa_cadena_ganadora(movimiento, movimientos_ia):
-    # Define las direcciones para verificar cadenas (horizontal, vertical, diagonales)
-    direcciones = [(1, 0), (0, 1), (1, 1), (1, -1)]
-    longitud_cadena = 6  # Para ganar se necesita una cadena de 6 en raya
-
-    # Convierte movimientos_ia en un conjunto de posiciones individuales
-
-    # Agrega las posiciones del movimiento actual al conjunto de posiciones de la IA
-    movimientos_ia.update(movimiento.positions)
-
-    # Revisa cada posición en el movimiento para ver si completa una cadena de 6
-    for pos in movimiento.positions:
-        for dx, dy in direcciones:
-            conteo = 1  # Contar la posición actual como parte de la cadena
-
-            # Recorre hacia adelante en la dirección
-            x, y = pos.x + dx, pos.y + dy
-            while StonePosition(x, y) in movimientos_ia:
-                conteo += 1
-                x += dx
-                y += dy
-
-            # Recorre hacia atrás en la dirección opuesta
-            x, y = pos.x - dx, pos.y - dy
-            while StonePosition(x, y) in movimientos_ia:
-                conteo += 1
-                x -= dx
-                y -= dy
-
-            # Si se encuentra una cadena de longitud igual o mayor a 6, retorna True
-            if conteo >= longitud_cadena:
-                return True
-
-    # Si ninguna dirección alcanza una cadena de 6, retorna False
-    return False"""
-
-def combinar_evaluaciones(puntuacion_minimax, movimiento_score):
-    ponderacion_minimax = 0.7
-    ponderacion_movimiento = 0.3
-    return (ponderacion_minimax * puntuacion_minimax) + (ponderacion_movimiento * movimiento_score)
