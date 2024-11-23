@@ -40,16 +40,6 @@ class SearchEngine():
             bestMove.positions[1].x = move2[0]
             bestMove.positions[1].y = move2[1]
             make_move(self.m_board, bestMove, ourColor, movimientos)
-            
-            '''Check game result
-            if (is_win_by_premove(self.m_board, bestMove)):
-                #Self wins.
-                return Defines.MININT + 1;'''
-            
-            """move2 = self.find_possible_move(self.m_alphabeta_depth)
-            bestMove.positions[1].x = move2[0]
-            bestMove.positions[1].y = move2[1]
-            make_move(self.m_board,bestMove,ourColor)"""
 
         return alpha
         
@@ -59,51 +49,16 @@ class SearchEngine():
                 if(self.m_board[i][j] != Defines.NOSTONE):
                     return False
         return True
-        
-    """def find_possible_move(self):
-        candidatos = self.buscar_candidatos()
-
-        if candidatos:
-            # Seleccionamos un candidato aleatorio de los encontrados
-            return random.choice(candidatos)
-        else:
-            # Si no hay candidatos, buscar el primer espacio vacío
-            for i in range(1, len(self.m_board) - 1):
-                for j in range(1, len(self.m_board[i]) - 1):
-                    if self.m_board[i][j] == Defines.NOSTONE:
-                        return (i, j)
-        
-        return (-1, -1)"""
-    
-    """def buscar_candidatos(self, board, movimientos):
-        candidatos = set()
-        direcciones = [(1, 0), (0, 1), (1, 1), (1, -1)]
-        max_candidatos = 8
-
-        for movimiento, jugador in movimientos.items():
-            for dx, dy in direcciones:
-                for dist in range(1, 3):  
-                    nueva_fila = movimiento.x + dx * dist
-                    nueva_col = movimiento.y + dy * dist
-                    if isValidPos(nueva_fila, nueva_col) and board[nueva_fila][nueva_col] == Defines.NOSTONE:
-                        candidatos.add((nueva_fila, nueva_col))
-
-        if len(candidatos) == 0:
-            candidatos.add((6,6))
-            candidatos.add((7,7))
-
-        candidatos = sorted(candidatos, key=lambda pos: distancia_heuristica(pos, movimientos))
-
-        return candidatos[:max_candidatos]"""
     
     def buscar_candidatos(self, board, movimientos):
         ofensivos = set()
         defensivos = set()
         direcciones = [(1, 0), (0, 1), (1, 1), (1, -1)]
 
+        #Recorrer la lista de movimientos
         for movimiento, jugador in movimientos.items():
             for dx, dy in direcciones:
-                for dist in range(1, 3):
+                for dist in range(1, 3): #Ver en una distancia de uno a 3 espacios
                     nueva_fila = movimiento.x + dx * dist
                     nueva_col = movimiento.y + dy * dist
                     if isValidPos(nueva_fila, nueva_col) and board[nueva_fila][nueva_col] == Defines.NOSTONE:
@@ -113,13 +68,14 @@ class SearchEngine():
                             ofensivos.add((nueva_fila, nueva_col))
                     nueva_fila = movimiento.x + -dx * dist
                     nueva_col = movimiento.y + -dy * dist
-                    if isValidPos(nueva_fila, nueva_col) and board[nueva_fila][nueva_col] == Defines.NOSTONE:
+                    if isValidPos(nueva_fila, nueva_col) and board[nueva_fila][nueva_col] == Defines.NOSTONE: #Añadir la direccion contraria
                         if jugador == self.color_jugador:
                             defensivos.add((nueva_fila, nueva_col))
                         if jugador == self.color_ia: 
                             ofensivos.add((nueva_fila, nueva_col))
                             
-        ofensivos = sorted(ofensivos, key=lambda pos: self.evaluar_posicion(pos, board, self.color_ia), reverse=True)
+        #Ordenar en funcion de la puntuacion y devolver los cuatro mejores
+        ofensivos = sorted(ofensivos, key=lambda pos: self.evaluar_posicion(pos, board, self.color_ia), reverse=True) 
         defensivos = sorted(defensivos, key=lambda pos: self.evaluar_posicion(pos, board, self.color_jugador), reverse=True)
         candidatos_finales = ofensivos[:4] + defensivos[:4]
         return candidatos_finales
@@ -142,7 +98,7 @@ class SearchEngine():
             elif ganador == self.color_jugador:
                 return Defines.MININT
             elif ver_empate(board):
-                return 0  # Empate
+                return 0
 
         puntuacion = 0
         direcciones = [(1, 0), (0, 1), (1, 1), (1, -1)]
@@ -181,9 +137,11 @@ class SearchEngine():
     def min_max(self, depth, alpha, beta, maximizando, movimientos, move):
         victoria = is_win_by_premove(self.m_board, move)
         empate = ver_empate(self.m_board)
+        #Definir profundidad maxima
         if depth > 2:
             depth = 2
 
+        #Criterios para devolver la puntuacion
         if depth == 0 or victoria or empate:
             if victoria:
                 ganador = self.color_jugador if not maximizando else self.color_ia
@@ -198,18 +156,15 @@ class SearchEngine():
         for i, movimiento1 in enumerate(candidatos):
             for j, movimiento2 in enumerate(candidatos):
                 if i == j:
-                    continue  # No permitimos poner dos fichas en la misma posición
+                    continue  #No permitimos poner dos fichas en la misma posición
                 
                 movimiento = StoneMove()
                 movimiento.positions[0].x = movimiento1[0]
                 movimiento.positions[0].y = movimiento1[1]
                 movimiento.positions[1].x = movimiento2[0]
                 movimiento.positions[1].y = movimiento2[1]
-                make_move(self.m_board, movimiento, self.color_ia if maximizando else self.color_jugador, movimientos)
-                #print_board(tablero_aux)
+                make_move(self.m_board, movimiento, self.color_ia if maximizando else self.color_jugador, movimientos) #Simular movimiento
                 puntuacion = self.min_max(depth - 1, alpha, beta, not maximizando, movimientos, movimiento)
-                #print(f"Puntuación: {puntuacion}")
-                #print("------------------------------------------------------------------")
                 unmake_move(self.m_board, movimiento, movimientos)
 
                 if maximizando:
@@ -233,29 +188,30 @@ class SearchEngine():
         beta = Defines.MAXINT
         candidatos = self.buscar_candidatos(self.m_board, movimientos)
 
+        #Recorrer los movimietnos
         for i, movimiento1 in enumerate(candidatos):
             for j, movimiento2 in enumerate(candidatos):
                 if i == j:
-                    continue
+                    continue # No permitimos poner dos fichas en la misma posición
                 
                 movimiento = StoneMove()
                 movimiento.positions[0].x = movimiento1[0]
                 movimiento.positions[0].y = movimiento1[1]
                 movimiento.positions[1].x = movimiento2[0]
                 movimiento.positions[1].y = movimiento2[1]
-                make_move(self.m_board, movimiento, self.color_ia, movimientos)
+                make_move(self.m_board, movimiento, self.color_ia, movimientos) #Simular movimiento
 
                 if is_win_by_premove(self.m_board, movimiento):
                     unmake_move(self.m_board, movimiento, movimientos)
                     return movimiento1, movimiento2
                     
-                puntuacion = self.min_max(depth - 1, alpha, beta, False, movimientos, movimiento)  # El oponente tratará de minimizar
-                unmake_move(self.m_board, movimiento, movimientos)
+                puntuacion = self.min_max(depth - 1, alpha, beta, False, movimientos, movimiento)  #El oponente tratará de minimizar
+                unmake_move(self.m_board, movimiento, movimientos) #Deshacer la simulación
                 if puntuacion > mejor_puntuacion:
                     mejor_puntuacion = puntuacion
                     mejor_movimiento1 = movimiento1
                     mejor_movimiento2 = movimiento2
-                alpha = max(alpha, puntuacion)  # Actualizar alpha aquí también
+                alpha = max(alpha, puntuacion)  #Actualizar alpha aquí también
 
                 if beta <= alpha:
                     break

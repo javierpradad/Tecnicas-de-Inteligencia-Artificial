@@ -134,7 +134,7 @@ def print_score(move_list, n):
 
 def ver_victoria(board):
     direcciones = [(1, 0), (0, 1), (1, 1), (1, -1)]
-    # Iteramos sobre todo el tablero
+    # Iterar sobre todo el tablero
     for fila in range(1, Defines.GRID_NUM - 1):
         for col in range(1, Defines.GRID_NUM - 1):
 
@@ -161,7 +161,7 @@ def ver_victoria(board):
 def ver_empate(board):
     if board == None:
         return False
-
+    #Recorrer todas las filas en busca de una casilla vacia
     for fila in board:
         if Defines.NOSTONE in fila:
             return False
@@ -171,9 +171,11 @@ def contar_piedras(color, board):
     piedras = 0
     direcciones = [(1, 0), (0, 1), (1, 1), (1, -1)]
 
+    #Recorrer todo el tablero
     for fila in range(1, Defines.GRID_NUM - 1):
         for col in range(1, Defines.GRID_NUM - 1):
             if board[fila][col] == color:
+                #Contar piedras en todas las direcciones
                 for dx, dy in direcciones:
                     longitud_cadena = contar_cadena(board, fila, col, dx, dy, color)
                     if longitud_cadena > 1:
@@ -185,20 +187,20 @@ def contar_cadena(board, fila, col, dx, dy, color):
     consecutivas = 1
     n = len(board)
 
+    #Ver en un rango de una a 6 casillas si hay cadena
     for i in range(1, 6):
         nueva_fila = fila + i * dx
         nueva_col = col + i * dy
 
+        #Parar en caso de que se salga del tablero
         if nueva_fila < 0 or nueva_fila >= n or nueva_col < 0 or nueva_col >= n:
             break
 
-        #print(f"fila: {nueva_fila}     columna: {nueva_col}")
         if board[nueva_fila][nueva_col] == color:
             consecutivas += 1
         else:
             break
 
-    #print(f"piedras consecutivas: {consecutivas}")
     return consecutivas
 
 def distancia_heuristica(pos, movimientos):

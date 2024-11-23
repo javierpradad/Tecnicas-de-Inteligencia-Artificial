@@ -1,410 +1,113 @@
-('D:\\Clase\\Universidad\\Máster\\Técnicas de Inteligencia '
- 'Artificial\\Práctica\\Tecnicas-de-Inteligencia-Artificial\\Engine\\build\\main\\PYZ-00.pyz',
- [('_compat_pickle',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_compat_pickle.py',
-   'PYMODULE'),
-  ('_compression',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_compression.py',
-   'PYMODULE'),
-  ('_py_abc',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_py_abc.py',
-   'PYMODULE'),
-  ('_pydecimal',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_pydecimal.py',
-   'PYMODULE'),
-  ('_strptime',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_strptime.py',
-   'PYMODULE'),
-  ('_threading_local',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_threading_local.py',
-   'PYMODULE'),
-  ('argparse',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\argparse.py',
-   'PYMODULE'),
-  ('ast',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ast.py',
-   'PYMODULE'),
-  ('base64',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\base64.py',
-   'PYMODULE'),
-  ('bisect',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\bisect.py',
-   'PYMODULE'),
-  ('bz2',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\bz2.py',
-   'PYMODULE'),
-  ('calendar',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\calendar.py',
-   'PYMODULE'),
-  ('contextlib',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\contextlib.py',
-   'PYMODULE'),
-  ('contextvars',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\contextvars.py',
-   'PYMODULE'),
-  ('copy',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\copy.py',
-   'PYMODULE'),
-  ('csv',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\csv.py',
-   'PYMODULE'),
-  ('dataclasses',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\dataclasses.py',
-   'PYMODULE'),
-  ('datetime',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\datetime.py',
-   'PYMODULE'),
-  ('decimal',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\decimal.py',
-   'PYMODULE'),
+('/media/javi/3EEC368CEC363F09/Clase/Universidad/Máster/Técnicas de '
+ 'Inteligencia '
+ 'Artificial/Práctica/Tecnicas-de-Inteligencia-Artificial/Engine/build/main/PYZ-00.pyz',
+ [('_compat_pickle', '/usr/lib/python3.8/_compat_pickle.py', 'PYMODULE'),
+  ('_compression', '/usr/lib/python3.8/_compression.py', 'PYMODULE'),
+  ('_py_abc', '/usr/lib/python3.8/_py_abc.py', 'PYMODULE'),
+  ('_strptime', '/usr/lib/python3.8/_strptime.py', 'PYMODULE'),
+  ('_threading_local', '/usr/lib/python3.8/_threading_local.py', 'PYMODULE'),
+  ('argparse', '/usr/lib/python3.8/argparse.py', 'PYMODULE'),
+  ('base64', '/usr/lib/python3.8/base64.py', 'PYMODULE'),
+  ('bisect', '/usr/lib/python3.8/bisect.py', 'PYMODULE'),
+  ('bz2', '/usr/lib/python3.8/bz2.py', 'PYMODULE'),
+  ('calendar', '/usr/lib/python3.8/calendar.py', 'PYMODULE'),
+  ('configparser', '/usr/lib/python3.8/configparser.py', 'PYMODULE'),
+  ('contextlib', '/usr/lib/python3.8/contextlib.py', 'PYMODULE'),
+  ('copy', '/usr/lib/python3.8/copy.py', 'PYMODULE'),
+  ('csv', '/usr/lib/python3.8/csv.py', 'PYMODULE'),
+  ('datetime', '/usr/lib/python3.8/datetime.py', 'PYMODULE'),
   ('defines',
-   'D:\\Clase\\Universidad\\Máster\\Técnicas de Inteligencia '
-   'Artificial\\Práctica\\Tecnicas-de-Inteligencia-Artificial\\Engine\\defines.py',
+   '/media/javi/3EEC368CEC363F09/Clase/Universidad/Máster/Técnicas de '
+   'Inteligencia '
+   'Artificial/Práctica/Tecnicas-de-Inteligencia-Artificial/Engine/defines.py',
    'PYMODULE'),
-  ('dis',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\dis.py',
-   'PYMODULE'),
-  ('email',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\__init__.py',
-   'PYMODULE'),
+  ('email', '/usr/lib/python3.8/email/__init__.py', 'PYMODULE'),
   ('email._encoded_words',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\_encoded_words.py',
+   '/usr/lib/python3.8/email/_encoded_words.py',
    'PYMODULE'),
   ('email._header_value_parser',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\_header_value_parser.py',
+   '/usr/lib/python3.8/email/_header_value_parser.py',
    'PYMODULE'),
-  ('email._parseaddr',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\_parseaddr.py',
-   'PYMODULE'),
-  ('email._policybase',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\_policybase.py',
-   'PYMODULE'),
-  ('email.base64mime',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\base64mime.py',
-   'PYMODULE'),
-  ('email.charset',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\charset.py',
-   'PYMODULE'),
+  ('email._parseaddr', '/usr/lib/python3.8/email/_parseaddr.py', 'PYMODULE'),
+  ('email._policybase', '/usr/lib/python3.8/email/_policybase.py', 'PYMODULE'),
+  ('email.base64mime', '/usr/lib/python3.8/email/base64mime.py', 'PYMODULE'),
+  ('email.charset', '/usr/lib/python3.8/email/charset.py', 'PYMODULE'),
   ('email.contentmanager',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\contentmanager.py',
+   '/usr/lib/python3.8/email/contentmanager.py',
    'PYMODULE'),
-  ('email.encoders',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\encoders.py',
-   'PYMODULE'),
-  ('email.errors',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\errors.py',
-   'PYMODULE'),
-  ('email.feedparser',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\feedparser.py',
-   'PYMODULE'),
-  ('email.generator',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\generator.py',
-   'PYMODULE'),
-  ('email.header',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\header.py',
-   'PYMODULE'),
+  ('email.encoders', '/usr/lib/python3.8/email/encoders.py', 'PYMODULE'),
+  ('email.errors', '/usr/lib/python3.8/email/errors.py', 'PYMODULE'),
+  ('email.feedparser', '/usr/lib/python3.8/email/feedparser.py', 'PYMODULE'),
+  ('email.generator', '/usr/lib/python3.8/email/generator.py', 'PYMODULE'),
+  ('email.header', '/usr/lib/python3.8/email/header.py', 'PYMODULE'),
   ('email.headerregistry',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\headerregistry.py',
+   '/usr/lib/python3.8/email/headerregistry.py',
    'PYMODULE'),
-  ('email.iterators',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\iterators.py',
-   'PYMODULE'),
-  ('email.message',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\message.py',
-   'PYMODULE'),
-  ('email.parser',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\parser.py',
-   'PYMODULE'),
-  ('email.policy',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\policy.py',
-   'PYMODULE'),
-  ('email.quoprimime',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\quoprimime.py',
-   'PYMODULE'),
-  ('email.utils',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\utils.py',
-   'PYMODULE'),
-  ('fnmatch',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\fnmatch.py',
-   'PYMODULE'),
-  ('fractions',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\fractions.py',
-   'PYMODULE'),
+  ('email.iterators', '/usr/lib/python3.8/email/iterators.py', 'PYMODULE'),
+  ('email.message', '/usr/lib/python3.8/email/message.py', 'PYMODULE'),
+  ('email.parser', '/usr/lib/python3.8/email/parser.py', 'PYMODULE'),
+  ('email.policy', '/usr/lib/python3.8/email/policy.py', 'PYMODULE'),
+  ('email.quoprimime', '/usr/lib/python3.8/email/quoprimime.py', 'PYMODULE'),
+  ('email.utils', '/usr/lib/python3.8/email/utils.py', 'PYMODULE'),
+  ('fnmatch', '/usr/lib/python3.8/fnmatch.py', 'PYMODULE'),
   ('game_engine',
-   'D:\\Clase\\Universidad\\Máster\\Técnicas de Inteligencia '
-   'Artificial\\Práctica\\Tecnicas-de-Inteligencia-Artificial\\Engine\\game_engine.py',
+   '/media/javi/3EEC368CEC363F09/Clase/Universidad/Máster/Técnicas de '
+   'Inteligencia '
+   'Artificial/Práctica/Tecnicas-de-Inteligencia-Artificial/Engine/game_engine.py',
    'PYMODULE'),
-  ('getopt',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\getopt.py',
-   'PYMODULE'),
-  ('gettext',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\gettext.py',
-   'PYMODULE'),
-  ('gzip',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\gzip.py',
-   'PYMODULE'),
-  ('hashlib',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\hashlib.py',
-   'PYMODULE'),
-  ('importlib',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\__init__.py',
-   'PYMODULE'),
-  ('importlib._abc',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\_abc.py',
-   'PYMODULE'),
+  ('getopt', '/usr/lib/python3.8/getopt.py', 'PYMODULE'),
+  ('gettext', '/usr/lib/python3.8/gettext.py', 'PYMODULE'),
+  ('gzip', '/usr/lib/python3.8/gzip.py', 'PYMODULE'),
+  ('hashlib', '/usr/lib/python3.8/hashlib.py', 'PYMODULE'),
+  ('importlib', '/usr/lib/python3.8/importlib/__init__.py', 'PYMODULE'),
   ('importlib._bootstrap',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\_bootstrap.py',
+   '/usr/lib/python3.8/importlib/_bootstrap.py',
    'PYMODULE'),
   ('importlib._bootstrap_external',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\_bootstrap_external.py',
+   '/usr/lib/python3.8/importlib/_bootstrap_external.py',
    'PYMODULE'),
-  ('importlib.abc',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\abc.py',
-   'PYMODULE'),
+  ('importlib.abc', '/usr/lib/python3.8/importlib/abc.py', 'PYMODULE'),
   ('importlib.machinery',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\machinery.py',
+   '/usr/lib/python3.8/importlib/machinery.py',
    'PYMODULE'),
   ('importlib.metadata',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\metadata\\__init__.py',
+   '/usr/lib/python3.8/importlib/metadata.py',
    'PYMODULE'),
-  ('importlib.metadata._adapters',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\metadata\\_adapters.py',
-   'PYMODULE'),
-  ('importlib.metadata._collections',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\metadata\\_collections.py',
-   'PYMODULE'),
-  ('importlib.metadata._functools',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\metadata\\_functools.py',
-   'PYMODULE'),
-  ('importlib.metadata._itertools',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\metadata\\_itertools.py',
-   'PYMODULE'),
-  ('importlib.metadata._meta',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\metadata\\_meta.py',
-   'PYMODULE'),
-  ('importlib.metadata._text',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\metadata\\_text.py',
-   'PYMODULE'),
-  ('importlib.readers',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\readers.py',
-   'PYMODULE'),
-  ('importlib.resources',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\resources\\__init__.py',
-   'PYMODULE'),
-  ('importlib.resources._adapters',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\resources\\_adapters.py',
-   'PYMODULE'),
-  ('importlib.resources._common',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\resources\\_common.py',
-   'PYMODULE'),
-  ('importlib.resources._itertools',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\resources\\_itertools.py',
-   'PYMODULE'),
-  ('importlib.resources._legacy',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\resources\\_legacy.py',
-   'PYMODULE'),
-  ('importlib.resources.abc',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\resources\\abc.py',
-   'PYMODULE'),
-  ('importlib.resources.readers',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\resources\\readers.py',
-   'PYMODULE'),
-  ('importlib.util',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\util.py',
-   'PYMODULE'),
-  ('inspect',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\inspect.py',
-   'PYMODULE'),
-  ('logging',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\logging\\__init__.py',
-   'PYMODULE'),
-  ('lzma',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\lzma.py',
-   'PYMODULE'),
-  ('numbers',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\numbers.py',
-   'PYMODULE'),
-  ('opcode',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\opcode.py',
-   'PYMODULE'),
-  ('pathlib',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\pathlib.py',
-   'PYMODULE'),
-  ('pickle',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\pickle.py',
-   'PYMODULE'),
-  ('pprint',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\pprint.py',
-   'PYMODULE'),
-  ('py_compile',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\py_compile.py',
-   'PYMODULE'),
-  ('quopri',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\quopri.py',
-   'PYMODULE'),
-  ('random',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\random.py',
-   'PYMODULE'),
+  ('importlib.util', '/usr/lib/python3.8/importlib/util.py', 'PYMODULE'),
+  ('logging', '/usr/lib/python3.8/logging/__init__.py', 'PYMODULE'),
+  ('lzma', '/usr/lib/python3.8/lzma.py', 'PYMODULE'),
+  ('optparse', '/usr/lib/python3.8/optparse.py', 'PYMODULE'),
+  ('pathlib', '/usr/lib/python3.8/pathlib.py', 'PYMODULE'),
+  ('pickle', '/usr/lib/python3.8/pickle.py', 'PYMODULE'),
+  ('pprint', '/usr/lib/python3.8/pprint.py', 'PYMODULE'),
+  ('py_compile', '/usr/lib/python3.8/py_compile.py', 'PYMODULE'),
+  ('quopri', '/usr/lib/python3.8/quopri.py', 'PYMODULE'),
+  ('random', '/usr/lib/python3.8/random.py', 'PYMODULE'),
   ('search_engine',
-   'D:\\Clase\\Universidad\\Máster\\Técnicas de Inteligencia '
-   'Artificial\\Práctica\\Tecnicas-de-Inteligencia-Artificial\\Engine\\search_engine.py',
+   '/media/javi/3EEC368CEC363F09/Clase/Universidad/Máster/Técnicas de '
+   'Inteligencia '
+   'Artificial/Práctica/Tecnicas-de-Inteligencia-Artificial/Engine/search_engine.py',
    'PYMODULE'),
-  ('selectors',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\selectors.py',
-   'PYMODULE'),
-  ('shutil',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\shutil.py',
-   'PYMODULE'),
-  ('signal',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\signal.py',
-   'PYMODULE'),
-  ('socket',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\socket.py',
-   'PYMODULE'),
-  ('statistics',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\statistics.py',
-   'PYMODULE'),
-  ('string',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\string.py',
-   'PYMODULE'),
-  ('stringprep',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\stringprep.py',
-   'PYMODULE'),
-  ('subprocess',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\subprocess.py',
-   'PYMODULE'),
-  ('tarfile',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tarfile.py',
-   'PYMODULE'),
-  ('tempfile',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tempfile.py',
-   'PYMODULE'),
-  ('textwrap',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\textwrap.py',
-   'PYMODULE'),
-  ('threading',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\threading.py',
-   'PYMODULE'),
-  ('token',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\token.py',
-   'PYMODULE'),
-  ('tokenize',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tokenize.py',
-   'PYMODULE'),
+  ('selectors', '/usr/lib/python3.8/selectors.py', 'PYMODULE'),
+  ('shutil', '/usr/lib/python3.8/shutil.py', 'PYMODULE'),
+  ('signal', '/usr/lib/python3.8/signal.py', 'PYMODULE'),
+  ('socket', '/usr/lib/python3.8/socket.py', 'PYMODULE'),
+  ('string', '/usr/lib/python3.8/string.py', 'PYMODULE'),
+  ('stringprep', '/usr/lib/python3.8/stringprep.py', 'PYMODULE'),
+  ('subprocess', '/usr/lib/python3.8/subprocess.py', 'PYMODULE'),
+  ('tarfile', '/usr/lib/python3.8/tarfile.py', 'PYMODULE'),
+  ('textwrap', '/usr/lib/python3.8/textwrap.py', 'PYMODULE'),
+  ('threading', '/usr/lib/python3.8/threading.py', 'PYMODULE'),
+  ('token', '/usr/lib/python3.8/token.py', 'PYMODULE'),
+  ('tokenize', '/usr/lib/python3.8/tokenize.py', 'PYMODULE'),
   ('tools',
-   'D:\\Clase\\Universidad\\Máster\\Técnicas de Inteligencia '
-   'Artificial\\Práctica\\Tecnicas-de-Inteligencia-Artificial\\Engine\\tools.py',
+   '/media/javi/3EEC368CEC363F09/Clase/Universidad/Máster/Técnicas de '
+   'Inteligencia '
+   'Artificial/Práctica/Tecnicas-de-Inteligencia-Artificial/Engine/tools.py',
    'PYMODULE'),
-  ('tracemalloc',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tracemalloc.py',
-   'PYMODULE'),
-  ('typing',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\typing.py',
-   'PYMODULE'),
-  ('urllib',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\urllib\\__init__.py',
-   'PYMODULE'),
-  ('urllib.parse',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\urllib\\parse.py',
-   'PYMODULE'),
-  ('zipfile',
-   'C:\\Users\\Javi '
-   'Prada\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\zipfile.py',
-   'PYMODULE')])
+  ('tracemalloc', '/usr/lib/python3.8/tracemalloc.py', 'PYMODULE'),
+  ('typing', '/usr/lib/python3.8/typing.py', 'PYMODULE'),
+  ('urllib', '/usr/lib/python3.8/urllib/__init__.py', 'PYMODULE'),
+  ('urllib.parse', '/usr/lib/python3.8/urllib/parse.py', 'PYMODULE'),
+  ('uu', '/usr/lib/python3.8/uu.py', 'PYMODULE'),
+  ('zipfile', '/usr/lib/python3.8/zipfile.py', 'PYMODULE')])
